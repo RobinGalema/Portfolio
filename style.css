@@ -3,23 +3,6 @@ body{
   padding: 0;
 }
 
-h1{
-  padding: 0;
-  margin: 0;
-  float: left;
-  font-family: brush script std;
-  color: #E9AA15;
-  font-size: 50px;
-}
-
-h2{
-  padding: 0;
-  margin: 0;
-  float: left;
-  font-family: A Pompadour Sample;
-  color: rgba(255, 255, 255, 0.78);
-}
-
 .nav{
   width: 100%;
   height: 100px;
@@ -33,9 +16,76 @@ h2{
 }
 
 .h1nav{
+  padding: 0;
+  margin: 0;
+  float: left;
+  font-family: brush script std;
+  color: #E9AA15;
+  font-size: 50px;
   flex-basis: 50%;
 }
 
 .h2nav{
+  padding: 0;
+  margin: 0;
+  float: left;
+  font-family: A Pompadour Sample;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.78);
   flex-basis: 5%;
+}
+
+.h1LandingContainer{
+  padding: 0;
+  margin: 0;
+  font-family: A Pompadour Sample;
+  font-size: 130px;
+  font-weight: normal;
+  color: white;
+}
+
+.h2LandingContaier{
+  padding: 0;
+  margin: 0;
+  font-family: A Pompadour Sample;
+  font-size: 65px;
+  font-weight: normal;
+  color: #E9AA15;
+}
+
+.landingContainer{
+  background-image: url(images/landingImage.png);
+  width: 100%;
+  height: 925px;
+  opacity: 0.80;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingImage{
+  object-fit: cover;
+  height: 925px;
+  width: 100%;
+  opacity: 0.80;
+}
+
+.landingButton{
+  background-color: #E9AA15;
+  border-style: none;
+  border-radius: 50px;
+  height: 70px;
+  width: 300px;
+  font-family: A Pompadour Sample;
+  font-size: 40px;
+  color: white;
+  margin-top: 100px;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.landingButton:hover{
+  background-color: #D49501;
 }
