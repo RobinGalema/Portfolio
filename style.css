@@ -53,6 +53,16 @@ body{
   color: #E9AA15;
 }
 
+.h2Course{
+  padding: 0;
+  margin: 0;
+  font-family: A Pompadour Sample;
+  font-size: 40px;
+  color: white;
+  font-weight: normal;
+  margin-top: 50px;
+}
+
 .landingContainer{
   background-image: url(images/landingImage.png);
   width: 100%;
@@ -88,4 +98,20 @@ body{
 
 .landingButton:hover{
   background-color: #D49501;
+}
+
+.courseContainer{
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.courseContent{
+  width: 25%;
+  height: 880px;
+  background-color: #3E4143;
+  border-style: solid;
+  border-color: #E8A914;
+  border-width: 2px;
+  text-align: center;
 }
