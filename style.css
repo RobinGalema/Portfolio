@@ -14,11 +14,20 @@ body{
   align-items: center;
   justify-content: center;
   z-index: 9;
+  transition-duration: 500ms;
 }
 
 .sticky{
   position: fixed;
   height: 70px;
+}
+
+.sticky .h1nav{
+  font-size: 45px;
+}
+
+.sticky .h2nav{
+  font-size: 20px;
 }
 
 .h1nav{
@@ -29,6 +38,7 @@ body{
   color: #E9AA15;
   font-size: 55px;
   flex-basis: 50%;
+  transition-duration: 500ms;
 }
 
 .h2nav{
@@ -85,6 +95,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition-duration: 500ms;
 }
 
 .landingButton{
