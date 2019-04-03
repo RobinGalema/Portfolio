@@ -5,7 +5,7 @@ body{
 
 .nav{
   width: 100%;
-  height: 100px;
+  height: 75px;
   background-color: #3E4143;
   display: flex;
   margin: 0;
@@ -21,7 +21,7 @@ body{
   float: left;
   font-family: brush script std;
   color: #E9AA15;
-  font-size: 50px;
+  font-size: 45px;
   flex-basis: 50%;
 }
 
@@ -31,6 +31,7 @@ body{
   float: left;
   font-family: A Pompadour Sample;
   font-weight: normal;
+  font-size: 20px;
   color: rgba(255, 255, 255, 0.70);
   flex-basis: 5%;
   cursor: pointer;
@@ -45,7 +46,7 @@ body{
   padding: 0;
   margin: 0;
   font-family: A Pompadour Sample;
-  font-size: 130px;
+  font-size: 110px;
   font-weight: normal;
   color: white;
 }
@@ -54,7 +55,7 @@ body{
   padding: 0;
   margin: 0;
   font-family: A Pompadour Sample;
-  font-size: 65px;
+  font-size: 55px;
   font-weight: normal;
   color: #E9AA15;
 }
@@ -72,30 +73,22 @@ body{
 .landingContainer{
   background-image: url(images/landingImage.png);
   width: 100%;
-  height: 925px;
+  height: 1000px;
   opacity: 0.80;
-  object-fit: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.landingImage{
-  object-fit: cover;
-  height: 925px;
-  width: 100%;
-  opacity: 0.80;
-}
-
 .landingButton{
   background-color: #E9AA15;
   border-style: none;
   border-radius: 50px;
-  height: 70px;
-  width: 300px;
+  height: 60px;
+  width: 270px;
   font-family: A Pompadour Sample;
-  font-size: 40px;
+  font-size: 32px;
   color: white;
   margin-top: 100px;
   transition-duration: 300ms;
@@ -113,10 +106,10 @@ body{
 }
 
 .courseContent{
-  width: 25%;
+  width: auto;
   height: 880px;
   background-color: #3E4143;
-  opacity: 0.80;
+  opacity: 0.88;
   border-style: solid;
   border-color: #E8A914;
   border-width: 2px;
@@ -126,5 +119,29 @@ body{
 }
 
 .courseContent:hover{
-  opacity: 0.90;
+  opacity: 0.96;
+}
+
+.courseContainerImage_uex{
+  background-image: url(images/uexContainerImage.png);
+  width: 25%;
+  height: 880px;
+}
+
+.courseContainerImage_ptm{
+  background-image: url(images/ptmContainerImage.png);
+  width: 25%;
+  height: 880px;
+}
+
+.courseContainerImage_dev{
+  background-image: url(images/devContainerImage.png);
+  width: 25%;
+  height: 880px;
+}
+
+.courseContainerImage_sco{
+  background-image: url(images/scoContainerImage.png);
+  width: 25%;
+  height: 880px;
 }
