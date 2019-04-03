@@ -31,8 +31,14 @@ body{
   float: left;
   font-family: A Pompadour Sample;
   font-weight: normal;
-  color: rgba(255, 255, 255, 0.78);
+  color: rgba(255, 255, 255, 0.70);
   flex-basis: 5%;
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+.h2nav:hover{
+  color: rgba(255, 255, 255, 1);
 }
 
 .h1LandingContainer{
@@ -110,8 +116,15 @@ body{
   width: 25%;
   height: 880px;
   background-color: #3E4143;
+  opacity: 0.80;
   border-style: solid;
   border-color: #E8A914;
   border-width: 2px;
   text-align: center;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.courseContent:hover{
+  opacity: 0.90;
 }
