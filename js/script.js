@@ -21,3 +21,32 @@ function scrollbar() {
     navbar.classList.remove("sticky");
   }
 }
+
+
+// Var to check the current content that needs to be shown
+// 0=landing / 1=ptm / 2=uex / 3=dev / 4=sco / Standard = 0
+var currentContent = 0;
+
+function contentPTM()
+{
+  currentContent = 1;
+  console.log("Content changed to PTM")
+}
+
+function contentUEX()
+{
+  currentContent = 2;
+  console.log("Content changed to UEX")
+}
+
+function contentDEV()
+{
+  currentContent = 3;
+  console.log("Content changed to DEV")
+}
+
+function contentSCO()
+{
+  currentContent = 4;
+  console.log("Content changed to SCO")
+}
