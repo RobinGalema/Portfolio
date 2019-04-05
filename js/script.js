@@ -20,6 +20,7 @@
           // do something with your data
           console.log(data.contentIndex);
           document.getElementById('content').innerHTML = data.contentIndex;
+          document.getElementById('pageHead').innerHTML = data.indexHead;
       });
     };
 
@@ -33,26 +34,31 @@
         {
           console.log(data.contentIndex);
           document.getElementById('content').innerHTML = data.contentIndex;
+          document.getElementById('pageHead').innerHTML = data.indexHead;
         }
         else if (pageIndex == 1)
         {
           console.log(data.contentPTM);
           document.getElementById('content').innerHTML = data.contentPTM;
+          document.getElementById('pageHead').innerHTML = data.ptmHead;
         }
         else if (pageIndex == 2)
         {
           console.log(data.contentUEX);
           document.getElementById('content').innerHTML = data.contentUEX;
+          document.getElementById('pageHead').innerHTML = data.uexHead;
         }
         else if (pageIndex == 3)
         {
           console.log(data.contentDEV);
           document.getElementById('content').innerHTML = data.contentDEV;
+          document.getElementById('pageHead').innerHTML = data.devHead;
         }
         else if (pageIndex == 4)
         {
           console.log(data.contentSCO);
           document.getElementById('content').innerHTML = data.contentSCO;
+          document.getElementById('pageHead').innerHTML = data.scoHead;
         }
         else // Display page not found (404) if no index matched the input
         {

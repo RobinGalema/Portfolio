@@ -1,7 +1,9 @@
 {
   "contentIndex" : "<div class='landingContainer'> <h1 class='h1LandingContainer'> Robin Galema </h1> <h2 class='h2LandingContaier'> Media Semester 2 </h2> <a href='#courseContainer'><button type='button' name='button' class='landingButton' onclick='getData()'> Naar Portfolio </button></a> </div> <div class='courseContainer' id='courseContainer'> <div class='courseContainerImage_ptm'> <a onclick='contentPTM()'> <div class='courseContent' id='ptm'> <h2 class='h2Course'> Proftaak </h2> </div> </a> </div> <div class='courseContainerImage_uex'> <a onclick='contentUEX()'> <div class='courseContent' id='uex'> <h2 class='h2Course' id='uextext'> User Experience </h2> </div> </a> </div> <div class='courseContainerImage_dev'> <a onclick='contentDEV()'> <div class='courseContent' id='dev'> <h2 class='h2Course'> Development </h2> </div> </a> </div> <div class='courseContainerImage_sco'> <a onclick='contentSCO()'> <div class='courseContent' id='sco'> <h2 class='h2Course'> Strategy & Concepting </h2> </div> </a> </div> </div>" ,
-  "contentPTM" : "<h2> PTM </h2>" ,
+  "contentPTM" : " <div class='contentContainer'> <div class='headImageContainer'> <img src='images/micklogo.png' class='headImage'></img> </div> <div class='pageContent'> <h1> Proftaak Branding </h1> <h2> Mick Stender </h2> <hr class='headerLine'> </div> </div>" ,
   "contentUEX" : "<h2> UEX </h2>" ,
   "contentDEV" : "<h2> DEV </h2>" ,
-  "contentSCO" : "<h2> SCO </h2>"
+  "contentSCO" : "<h2> SCO </h2>",
+  "indexHead" : " <meta charset='utf-8'> <link rel='stylesheet' href='style/main.css'> <title>Portfolio - PTM</title>",
+  "ptmHead" : " <meta charset='utf-8'> <link rel='stylesheet' href='style/ptm.css'> <title>Portfolio - PTM</title>"
 }
