@@ -13,25 +13,54 @@
       }
 
       // this requests the file and executes a callback with the parsed result once
-      //   it is available
+      // it is available
+      // When the page is loaded, load the index page as the defautt
       window.onload = function getData() {
-        fetchJSONFile('content/index.json', function(data) {
+        fetchJSONFile('content/content.json', function(data) {
           // do something with your data
           console.log(data.contentIndex);
           document.getElementById('content').innerHTML = data.contentIndex;
       });
     };
 
+    // Function to set the content of the page based on the ID of the pageIndex
+    // 0 = index / 1 = ptm / 2 = uex / 3 = dev / 4 = sco
     function getContent(pageIndex) {
-      if (pageIndex == 0)
-      {
-      fetchJSONFile('content/index.json', function(data) {
+
+      fetchJSONFile('content/content.json', function(data) {
         // do something with your data
-        console.log(data.contentIndex);
-        document.getElementById('content').innerHTML = data.contentIndex;
-          });
-        };
-      };
+        if (pageIndex == 0)
+        {
+          console.log(data.contentIndex);
+          document.getElementById('content').innerHTML = data.contentIndex;
+        }
+        else if (pageIndex == 1)
+        {
+          console.log(data.contentPTM);
+          document.getElementById('content').innerHTML = data.contentPTM;
+        }
+        else if (pageIndex == 2)
+        {
+          console.log(data.contentUEX);
+          document.getElementById('content').innerHTML = data.contentUEX;
+        }
+        else if (pageIndex == 3)
+        {
+          console.log(data.contentDEV);
+          document.getElementById('content').innerHTML = data.contentDEV;
+        }
+        else if (pageIndex == 4)
+        {
+          console.log(data.contentSCO);
+          document.getElementById('content').innerHTML = data.contentSCO;
+        }
+        else // Display page not found (404) if no index matched the input
+        {
+          console.log('Error 404');
+          document.getElementById('content').innerHTML = "<h2> 404 : page not found </h2>";
+        }
+      });
+    };
 
 
 // Fucntion to make the navbar sticky, activated when the users scrolls on the page
