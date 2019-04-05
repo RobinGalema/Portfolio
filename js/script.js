@@ -1,4 +1,4 @@
-window.onload = function fetchJSONFile(path, callback) {
+ function fetchJSONFile(path, callback) {
         var httpRequest = new XMLHttpRequest();
         httpRequest.onreadystatechange = function() {
           if (httpRequest.readyState === 4) {
@@ -14,10 +14,11 @@ window.onload = function fetchJSONFile(path, callback) {
 
       // this requests the file and executes a callback with the parsed result once
       //   it is available
-      function getData() {
+      window.onload = function getData() {
         fetchJSONFile('content/index.json', function(data) {
           // do something with your data
-          document.getElementById('body').innerHTML = content
+          console.log(data.content);
+          document.getElementById('content').innerHTML = data.content;
       });
     };
 
