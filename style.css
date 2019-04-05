@@ -39,6 +39,7 @@ body{
   font-size: 55px;
   flex-basis: 50%;
   transition-duration: 500ms;
+  cursor: pointer;
 }
 
 .h2nav{

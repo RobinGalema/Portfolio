@@ -17,10 +17,21 @@
       window.onload = function getData() {
         fetchJSONFile('content/index.json', function(data) {
           // do something with your data
-          console.log(data.content);
-          document.getElementById('content').innerHTML = data.content;
+          console.log(data.contentIndex);
+          document.getElementById('content').innerHTML = data.contentIndex;
       });
     };
+
+    function getContent(pageIndex) {
+      if (pageIndex == 0)
+      {
+      fetchJSONFile('content/index.json', function(data) {
+        // do something with your data
+        console.log(data.contentIndex);
+        document.getElementById('content').innerHTML = data.contentIndex;
+          });
+        };
+      };
 
 
 // Fucntion to make the navbar sticky, activated when the users scrolls on the page
@@ -44,33 +55,4 @@ function scrollbar() {
     // Else remove the sticky class from the navbar
     navbar.classList.remove("sticky");
   }
-}
-
-
-// Var to check the current content that needs to be shown
-// 0=landing / 1=ptm / 2=uex / 3=dev / 4=sco / Standard = 0
-var currentContent = 0;
-
-function contentPTM()
-{
-  currentContent = 1;
-  console.log("Content changed to PTM")
-}
-
-function contentUEX()
-{
-  currentContent = 2;
-  console.log("Content changed to UEX")
-}
-
-function contentDEV()
-{
-  currentContent = 3;
-  console.log("Content changed to DEV")
-}
-
-function contentSCO()
-{
-  currentContent = 4;
-  console.log("Content changed to SCO")
 }
