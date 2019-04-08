@@ -91,8 +91,8 @@ h2{
 }
 
 .headImage{
-  height: 65%;
-  margin-top: 75px;
+  height: 700px;
+  width: 100%;
 }
 
 .pageContent{
@@ -106,8 +106,15 @@ h2{
 }
 .pageContent h2{
   font-family: A Pompadour Sample;
-  font-size: 50px;
+  font-size: 70px;
   color: #D89F19;
+}
+
+.pageContent p{
+  font-family: A Pompadour Sample;
+  font-weight: regular;
+  font-size: 30px;
+  color: #3E4143;
 }
 
 .headerLine{
