@@ -1,3 +1,5 @@
+var currentPage;
+
  function fetchJSONFile(path, callback) {
         var httpRequest = new XMLHttpRequest();
         httpRequest.onreadystatechange = function() {
@@ -18,9 +20,14 @@
       window.onload = function getData() {
         fetchJSONFile('content/content.json', function(data) {
           // do something with your data
-          console.log(data.contentIndex);
-          document.getElementById('content').innerHTML = data.contentIndex;
-          document.getElementById('pageHead').innerHTML = data.indexHead;
+
+          getContent(localStorage.getItem("currentPageNumber"));
+          console.log(currentPage);
+
+          //console.log(data.contentIndex);
+          //document.getElementById('content').innerHTML = data.contentIndex;
+          //document.getElementById('pageHead').innerHTML = data.indexHead;
+
       });
     };
 
@@ -35,30 +42,40 @@
           console.log(data.contentIndex);
           document.getElementById('content').innerHTML = data.contentIndex;
           document.getElementById('pageHead').innerHTML = data.indexHead;
+          currentPage = 0;
+          localStorage.setItem("currentPageNumber", currentPage)
         }
         else if (pageIndex == 1)
         {
           console.log(data.contentPTM);
           document.getElementById('content').innerHTML = data.contentPTM;
           document.getElementById('pageHead').innerHTML = data.ptmHead;
+          currentPage = 1;
+          localStorage.setItem("currentPageNumber", currentPage)
         }
         else if (pageIndex == 2)
         {
           console.log(data.contentUEX);
           document.getElementById('content').innerHTML = data.contentUEX;
           document.getElementById('pageHead').innerHTML = data.uexHead;
+          currentPage = 2;
+          localStorage.setItem("currentPageNumber", currentPage)
         }
         else if (pageIndex == 3)
         {
           console.log(data.contentDEV);
           document.getElementById('content').innerHTML = data.contentDEV;
           document.getElementById('pageHead').innerHTML = data.devHead;
+          currentPage = 3;
+          localStorage.setItem("currentPageNumber", currentPage)
         }
         else if (pageIndex == 4)
         {
           console.log(data.contentSCO);
           document.getElementById('content').innerHTML = data.contentSCO;
           document.getElementById('pageHead').innerHTML = data.scoHead;
+          currentPage = 4
+          localStorage.setItem("currentPageNumber", currentPage)
         }
         else // Display page not found (404) if no index matched the input
         {
