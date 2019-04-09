@@ -91,7 +91,7 @@ var currentPage;
       });
     };
 
-    window.onload = function getPOC()
+function getPOC()
     {
       fetchJSONFile('content/pocs.json', function(POCdata){
         console.log(POCdata.POCS);
