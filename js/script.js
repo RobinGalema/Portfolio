@@ -91,6 +91,24 @@ var currentPage;
       });
     };
 
+    window.onload = function getPOC()
+    {
+      fetchJSONFile('content/pocs.json', function(POCdata){
+        console.log(POCdata.POCS);
+        console.log(POCdata.POCS[2].title);
+
+        var title = document.getElementById('title');
+        var subtitle = document.getElementById('subtitle');
+        var image = document.getElementById('headImage');
+        var description = document.getElementById('description');
+
+        title.innerHTML = POCdata.POCS[0 ].title;
+        subtitle.innerHTML = POCdata.POCS[0].subtitle;
+        image.src = POCdata.POCS[0].image;
+        description.innerHTML = POCdata.POCS[0].description;
+      });
+    }
+
 
 // Fucntion to make the navbar sticky, activated when the users scrolls on the page
 window.onscroll = function() {scrollbar()};
