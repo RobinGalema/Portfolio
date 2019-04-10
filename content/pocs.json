@@ -23,10 +23,10 @@
     },
     {
       "id": 3,
-      "image": "",
-      "title": "",
-      "subtitle": "",
-      "description": ""
+      "image": "images/dom.jpg",
+      "title": "DOM Manipulation",
+      "subtitle": "Using Js to change content",
+      "description": "Dit is een beschrijving"
     }
   ]
 }

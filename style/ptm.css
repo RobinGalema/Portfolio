@@ -96,8 +96,9 @@ h2{
 }
 
 .pageContent{
-  margin-top: 50px;
-  margin-left: 50px;
+  margin: auto;
+  margin-top: 35px;
+  width: 90%;
 }
 .pageContent h1{
   font-family: A Pompadour Sample;
@@ -106,8 +107,9 @@ h2{
 }
 .pageContent h2{
   font-family: A Pompadour Sample;
-  font-size: 50px;
+  font-size: 60px;
   color: #D89F19;
+  padding-top: 10px;
 }
 
 .headerLine{
