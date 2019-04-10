@@ -15,14 +15,14 @@
       "description": "dit is een beschrijving"
     },
     {
-      "id": 1,
+      "id": 2,
       "image": "images/rps.jpg",
       "title": "Rock, Paper, Scissors",
       "subtitle": "A Simple Javascript Game",
       "description": "dit is een beschrijving"
     },
     {
-      "id": 1,
+      "id": 3,
       "image": "",
       "title": "",
       "subtitle": "",

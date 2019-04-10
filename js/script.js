@@ -72,7 +72,7 @@ var currentPage;
           document.getElementById('pageHead').innerHTML = data.devHead;
           // Store the index of the page which can be loaded after reloading the page
           currentPage = 3;
-          localStorage.setItem("currentPageNumber", currentPage)
+          localStorage.setItem("currentPageNumber", currentPage);
         }
         else if (pageIndex == 4)
         {
@@ -83,6 +83,15 @@ var currentPage;
           currentPage = 4
           localStorage.setItem("currentPageNumber", currentPage)
         }
+        else if (pageIndex == 5)
+        {
+          console.log(data.contentPOCS)
+          document.getElementById('content').innerHTML = data.contentPOCS
+          document.getElementById('pageHead').innerHTML = data.POCShead;
+          // Store the index of the page which can be loaded after reloading the page
+          currentPage = 5;
+          localStorage.setItem("currentPageNumber", currentPage);
+        }
         else // Display page not found (404) if no index matched the input
         {
           console.log('Error 404');
@@ -91,21 +100,24 @@ var currentPage;
       });
     };
 
-function getPOC()
+function loadPOC(id)
     {
-      fetchJSONFile('content/pocs.json', function(POCdata){
-        console.log(POCdata.POCS);
-        console.log(POCdata.POCS[2].title);
+      console.log("POC ID: " + id);
+      getContent(5);
 
-        var title = document.getElementById('title');
-        var subtitle = document.getElementById('subtitle');
-        var image = document.getElementById('headImage');
-        var description = document.getElementById('description');
+      window.onload = fetchJSONFile('content/pocs.json', function(POCdata){
+        console.table(POCdata.POCS);
+        console.log(POCdata.POCS[id].title);
 
-        title.innerHTML = POCdata.POCS[0 ].title;
-        subtitle.innerHTML = POCdata.POCS[0].subtitle;
-        image.src = POCdata.POCS[0].image;
-        description.innerHTML = POCdata.POCS[0].description;
+        let title = document.getElementById('title');
+        let subtitle = document.getElementById('subtitle');
+        let image = document.getElementById('headImage');
+        let description = document.getElementById('description');
+
+        title.innerHTML = POCdata.POCS[id].title;
+        subtitle.innerHTML = POCdata.POCS[id].subtitle;
+        image.src = POCdata.POCS[id].image;
+        description.innerHTML = POCdata.POCS[id].description;
       });
     }
 
