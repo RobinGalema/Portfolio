@@ -1,4 +1,5 @@
-var currentPage;
+let currentPage;
+let currentPoc;
 
  function fetchJSONFile(path, callback) {
         var httpRequest = new XMLHttpRequest();
@@ -21,9 +22,15 @@ var currentPage;
         fetchJSONFile('content/content.json', function(data) {
 
           // Load the index page or the last page visited before reloading the page
-          getContent(localStorage.getItem("currentPageNumber"));
+          if (localStorage.getItem("currentPageNumber") == null){
+            getContent(0);
+          }
+          else
+          {
+          getContent(localStorage.getItem("currentPageNumber")); }
+
           // debug
-          console.log(currentPage);
+          console.log("Current Page: " + currentPage);
 
           //console.log(data.contentIndex);
           //document.getElementById('content').innerHTML = data.contentIndex;
@@ -52,6 +59,8 @@ var currentPage;
           console.log(data.contentPTM);
           document.getElementById('content').innerHTML = data.contentPTM;
           document.getElementById('pageHead').innerHTML = data.ptmHead;
+          // Scroll to the top of the page
+          window.scrollTo(0,0)
           // Store the index of the page which can be loaded after reloading the page
           currentPage = 1;
           localStorage.setItem("currentPageNumber", currentPage)
@@ -61,6 +70,8 @@ var currentPage;
           console.log(data.contentUEX);
           document.getElementById('content').innerHTML = data.contentUEX;
           document.getElementById('pageHead').innerHTML = data.uexHead;
+          // Scroll to the top of the page
+          window.scrollTo(0,0)
           // Store the index of the page which can be loaded after reloading the page
           currentPage = 2;
           localStorage.setItem("currentPageNumber", currentPage)
@@ -70,6 +81,8 @@ var currentPage;
           console.log(data.contentDEV);
           document.getElementById('content').innerHTML = data.contentDEV;
           document.getElementById('pageHead').innerHTML = data.devHead;
+          // Scroll to the top of the page
+          window.scrollTo(0,0);
           // Store the index of the page which can be loaded after reloading the page
           currentPage = 3;
           localStorage.setItem("currentPageNumber", currentPage);
@@ -79,6 +92,8 @@ var currentPage;
           console.log(data.contentSCO);
           document.getElementById('content').innerHTML = data.contentSCO;
           document.getElementById('pageHead').innerHTML = data.scoHead;
+          // Scroll to the top of the page
+          window.scrollTo(0,0)
           // Store the index of the page which can be loaded after reloading the page
           currentPage = 4
           localStorage.setItem("currentPageNumber", currentPage)
@@ -88,6 +103,8 @@ var currentPage;
           console.log(data.contentPOCS)
           document.getElementById('content').innerHTML = data.contentPOCS
           document.getElementById('pageHead').innerHTML = data.POCShead;
+          // Scroll to the top of the page
+          window.scrollTo(0,0)
           // Store the index of the page which can be loaded after reloading the page
           currentPage = 5;
           localStorage.setItem("currentPageNumber", currentPage);
@@ -109,16 +126,19 @@ function loadPOC(id)
         console.table(POCdata.POCS);
         console.log(POCdata.POCS[id].title);
 
-        let title = document.getElementById('title');
-        let subtitle = document.getElementById('subtitle');
-        let image = document.getElementById('headImage');
-        let description = document.getElementById('description');
+        const title = document.getElementById('title');
+        const subtitle = document.getElementById('subtitle');
+        const image = document.getElementById('headImage');
+        const description = document.getElementById('description');
 
         title.innerHTML = POCdata.POCS[id].title;
         subtitle.innerHTML = POCdata.POCS[id].subtitle;
         image.src = POCdata.POCS[id].image;
         description.innerHTML = POCdata.POCS[id].description;
       });
+      
+      // Scroll to the top of the page
+      window.scrollTo(0,0)
     }
 
 
