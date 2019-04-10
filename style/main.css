@@ -135,7 +135,7 @@ h2{
 
 .courseContent{
   width: auto;
-  height: 880px;
+  height: 800px;
   background-color: #3E4143;
   opacity: 0.88;
   border-style: solid;
@@ -153,23 +153,23 @@ h2{
 .courseContainerImage_uex{
   background-image: url(/images/uexContainerImage.png);
   width: 25%;
-  height: 880px;
+  height: 800px;
 }
 
 .courseContainerImage_ptm{
   background-image: url(/images/ptmContainerImage.png);
   width: 25%;
-  height: 880px;
+  height: 800px;
 }
 
 .courseContainerImage_dev{
   background-image: url(/images/devContainerImage.png);
   width: 25%;
-  height: 880px;
+  height: 800px;
 }
 
 .courseContainerImage_sco{
   background-image: url(/images/scoContainerImage.png);
   width: 25%;
-  height: 880px;
+  height: 800px;
 }
