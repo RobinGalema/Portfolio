@@ -1,0 +1,32 @@
+{
+  "POCS":[
+    {
+      "id": 0,
+      "image": "images/css.jpg",
+      "title": "CSS",
+      "subtitle": "Basic CSS, Flexbox, CSS Grid & Transformations",
+      "description": "dit is een beschrijving"
+    },
+    {
+      "id": 1,
+      "image": "images/calculator.jpg",
+      "title": "Js Calculator",
+      "subtitle": "A simple calculator with Javascript",
+      "description": "dit is een beschrijving"
+    },
+    {
+      "id": 2,
+      "image": "images/rps.jpg",
+      "title": "Rock, Paper, Scissors",
+      "subtitle": "A Simple Javascript Game",
+      "description": "dit is een beschrijving"
+    },
+    {
+      "id": 3,
+      "image": "images/dom.jpg",
+      "title": "DOM&nbsp;Manipulation",
+      "subtitle": "Using Js to change content",
+      "description": "Dit is een beschrijving"
+    }
+  ]
+}

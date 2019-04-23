@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang='en' dir='ltr'>
+  <head id="pageHead">
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href='style/dev.css'>
+    <title>Portfolio - DEV</title>
+  </head>
+  <body id='body'>
+
+    <nav class="nav" id="navbar">
+      <h1 class="h1nav" onclick="getContent(0)"> Portfolio </h1>
+      <h2 class="h2nav" onclick="getContent(1)"> PTM </h2>
+      <h2 class="h2nav" onclick="getContent(2)"> UEX </h2>
+      <h2 class="h2nav" onclick="getContent(3)"> DEV </h2>
+      <h2 class="h2nav" onclick="getContent(4)"> SCO </h2>
+    </nav>
+
+<section id='content' class="content">
+  <div class='contentContainer'>
+
+    <div class='headImageContainer'>
+    <img src='images/devLanding.jpeg' class='headImage'></img>
+    </div>
+
+    <div class='pageContent'>
+      <h1> Development </h1>
+      <h2> HTML, CSS & Javascript </h2>
+      <hr class='headerLine'>
+
+      <p>
+        Voor Development ben ik dit semester bezig geweest met HTML, CSS en vooral Javascript. Door middel van het maken kleine Proof of Concepts (POCs) ben ik bezig geweest met het aantonen van de leerdoelen van Development. <br> <br>
+
+        Hieronder staan al mijn gemaakte Proof of Concepts waarin ik mijn leerdoelen aantoon.
+      </p>
+
+      <h2> Proof of Concepts </h2>
+      <hr class="headerLine">
+
+      <div class="poccontainer">
+        <a href="pocs.html"><div class="poc" style="background-image: url(images/css.jpg);"></a>
+          <div class="pocContent" onclick="loadPOC(0)">
+            <h2> CSS </h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua.<br> <br>
+           </p>
+          </div>
+        </div>
+
+        <a href="pocs.html"> <div class="poc" style='background-image: url(images/calculator.jpg);'> </a>
+          <div class="pocContent" onclick="loadPOC(1)">
+            <h2> Js Calculator</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. </p>
+          </div>
+        </div>
+
+        <div class="poc" style="background-image: url(images/rps.jpg);">
+          <div class="pocContent" onclick="loadPOC(2)">
+            <h2> Rock, Paper, Scissors</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua.  Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.<p>
+          </div>
+        </div>
+
+        <a href='pocs.html'><div class="poc" style="background-image: url(images/dom.jpg);"></a>
+          <div class="pocContent" onclick="loadPOC(3)">
+            <h2> DOM Manipulation</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua.  Neque porro quisquam est. <br> <br>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </p>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  </body>
+</html>
