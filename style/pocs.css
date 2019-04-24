@@ -129,3 +129,68 @@ h2{
   font-family: Franklin Gothic URW, sans-serif;
   font-size: 25px;
 }
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #242424;
+}
+
+.footerContainer{
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.footerContainer h1{
+  font-family: brush script std;
+  color: #D89F19;
+  font-size: 57px;
+  flex-basis: 100%;
+}
+
+.footerLeft{
+  flex-basis: 55%;
+  font-family: FranklinGothic URW;
+  font-weight: lighter;
+  color: #DEDEDE;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.footerRight{
+  flex-basis: 15%;
+  text-align: right;
+  font-family: FranklinGothic URW;
+  font-weight: lighter;
+  color: #DEDEDE;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+footer hr{
+  width: 100%;
+  border-style: solid;
+  border-color: #DEDEDE;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+
+.footerEnd{
+  flex-basis: 100%;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 15px;
+  font-family: FranklinGothic URW;
+  font-weight: lighter;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 40px;
+}
