@@ -24,9 +24,16 @@
     {
       "id": 3,
       "image": "images/dom.jpg",
-      "title": "DOM&nbsp;Manipulation",
+      "title": "DOM <br> Manipu-<br>lation",
       "subtitle": "Using Js to change content",
       "description": "Dit is een beschrijving"
+    },
+    {
+      "id" : 4,
+      "image": "images/timer.png",
+      "title": "Arrays & Timers",
+      "subtitle" : "Changing color on a timer",
+      "description" : "Dit is een beschrijving"
     }
   ]
 }

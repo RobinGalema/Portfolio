@@ -115,7 +115,7 @@ h2{
 .pageContent p{
   font-family: Franklin Gothic URW, sans-serif;
   font-weight: regular;
-  font-size: 30px;
+  font-size: 25px;
   color: #3E4143;
 }
 
@@ -138,8 +138,8 @@ h2{
 
 .poc{
   background-size: cover;
-  width: 50%;
-  height: 642px;
+  flex-basis: calc(100% / 3);
+  height: 428px;
 }
 
 .pocContent{
@@ -160,7 +160,7 @@ h2{
 
 .poccontainer h2{
   font-family: A Pompadour Sample;
-  font-size: 60px;
+  font-size: 50px;
   color: rgba(255, 255, 255, 1);
   padding-top: 10%;
   text-align: center;
@@ -168,7 +168,7 @@ h2{
 
 .pocContent p{
   font-family: A Pompadour Sample;
-  font-size: 30px;
+  font-size: 25px;
   color: rgba(255, 255, 255, 1);
   text-align: center;
   padding-left: 20px;
