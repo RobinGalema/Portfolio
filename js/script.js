@@ -87,31 +87,38 @@ let currentPoc;
           currentPage = 3;
           localStorage.setItem("currentPageNumber", currentPage);
 
+          // Create thumbnails for all pocs in the json file
           fetchJSONFile('content/pocs.json', function(poc) {
             console.table(poc.POCS);
             for(i=0; i < poc.POCS.length; i++)
             {
+              // Create the container div and give it the correct background image
               console.table(poc.POCS[i].title);
               var pocContainer = document.createElement('div');
               pocContainer.setAttribute('class', 'poc');
               pocContainer.style.backgroundImage = "url('"+poc.POCS[i].image+"')";
 
+              // Create the content div and give it the right onclick to go to the poc page
               var pocContent = document.createElement('div');
               pocContent.setAttribute('class', 'pocContent');
               pocContent.setAttribute('onclick', 'loadPOC('+i+')');
 
+              // Create and append the title to an h2 element
               var pocH2 = document.createElement('h2');
               var h2Text = document.createTextNode(poc.POCS[i].title);
               pocH2.appendChild(h2Text);
 
+              // Create and append the subtitle to an p element
               var pocP = document.createElement('p');
               var pText = document.createTextNode(poc.POCS[i].subtitle);
               pocP.appendChild(pText);
 
+              // Append all the content for the thumbnail to the container
               pocContent.appendChild(pocH2);
               pocContent.appendChild(pocP);
               pocContainer.appendChild(pocContent);
 
+              // Append the container with thumbnail to the page
               document.getElementById("poccontainer").appendChild(pocContainer);
 
             }
@@ -147,6 +154,8 @@ let currentPoc;
       });
     };
 
+
+// Function to load the content of a poc and display it on the poc page
 function loadPOC(id)
     {
       console.log("POC ID: " + id);

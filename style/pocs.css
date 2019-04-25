@@ -114,9 +114,9 @@ h2{
 
 .pageContent{
   height: auto;
-  width: 93.5%;
+  width: 80%;
+  margin: auto;
   margin-top: 50px;
-  margin-left: 50px;
 }
 
 .pageContent h2{
@@ -126,12 +126,52 @@ h2{
 
 .pageContent p{
   font-family: Franklin Gothic URW, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
+  margin-bottom: 0px;
 }
 
 .pageContent{
   font-family: A Pompadour Sample, sans-serif;
   font-size: 35px;
+}
+
+.flexpocimg{
+  width: 80%;
+  object-fit: contain;
+  margin-top: 50px;
+  padding-left: 130px;
+  margin-bottom: 50px;
+}
+
+.gridpocimg{
+  margin-top: 50px;
+  height: 30em;
+}
+
+.codeEmbed{
+  height: 500px;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.pocButton{
+  border: none;
+  background-color: #D89F19;
+  font-family: A Pompadour Sample, sans-serif;
+  font-size: 25px;
+  color: white;
+  height: 2em;
+  width: 10em;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition-duration: 400ms;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.pocButton:hover{
+  background-color: #FFBF29;
+  border-radius: 30px;
 }
 
 footer{
