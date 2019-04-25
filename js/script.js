@@ -86,6 +86,36 @@ let currentPoc;
           // Store the index of the page which can be loaded after reloading the page
           currentPage = 3;
           localStorage.setItem("currentPageNumber", currentPage);
+
+          fetchJSONFile('content/pocs.json', function(poc) {
+            console.table(poc.POCS);
+            for(i=0; i < poc.POCS.length; i++)
+            {
+              console.table(poc.POCS[i].title);
+              var pocContainer = document.createElement('div');
+              pocContainer.setAttribute('class', 'poc');
+              pocContainer.style.backgroundImage = "url('"+poc.POCS[i].image+"')";
+
+              var pocContent = document.createElement('div');
+              pocContent.setAttribute('class', 'pocContent');
+              pocContent.setAttribute('onclick', 'loadPOC('+i+')');
+
+              var pocH2 = document.createElement('h2');
+              var h2Text = document.createTextNode(poc.POCS[i].title);
+              pocH2.appendChild(h2Text);
+
+              var pocP = document.createElement('p');
+              var pText = document.createTextNode(poc.POCS[i].subtitle);
+              pocP.appendChild(pText);
+
+              pocContent.appendChild(pocH2);
+              pocContent.appendChild(pocP);
+              pocContainer.appendChild(pocContent);
+
+              document.getElementById("poccontainer").appendChild(pocContainer);
+
+            }
+          });
         }
         else if (pageIndex == 4)
         {
@@ -136,7 +166,7 @@ function loadPOC(id)
         image.src = POCdata.POCS[id].image;
         description.innerHTML = POCdata.POCS[id].description;
       });
-      
+
       // Scroll to the top of the page
       window.scrollTo(0,0)
     }

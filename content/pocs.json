@@ -5,7 +5,7 @@
       "image": "images/css.jpg",
       "title": "CSS",
       "subtitle": "Basic CSS, Flexbox, CSS Grid & Transformations",
-      "description": "dit is een beschrijving"
+      "description": "<h1>Opstart en Flexbox</h1><br> In de eerste week heb ik de start gemaakt voor het vak Development. Ik gebruik als IDE Atom of Visual Studio Code.<br> Als eerste heb ik een tutorial voor CSS Flexbox gezocht en heb ik aan de hand van deze tutorial een POC gemaakt voor de basis van het gebruik van CSS Flexbox. <br><br> Ik heb deze tutorial gevolgd: <br> https://www.youtube.com/watch?v=0e02dl66PYo <br><br> In de tutorial wordt de basis van Flexbox uitgelegd en wat je allemaal met flexbox kunt doen.<br><br> Door flexbox te gebruiken in mijn CSS heb ik de text containers op de juiste plaats kunnen zetten en kan ik er ook voor zorgen dat deze containers verplaatsen en dezelfde verhouding houden als de resolutie veranderd. Zelf had ik nog nooit flexbox gebruikt dus vond ik het interessant om te leren hoe dit werkt en hoe ik dit bij het maken van een website kan gebruiken om de content op mijn pagina netjes en op de goede plaats weer te geven. "
     },
     {
       "id": 1,

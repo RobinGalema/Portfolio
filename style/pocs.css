@@ -70,13 +70,13 @@ h2{
 }
 
 .content{
-  height: 1000px;
+  height: auto;
   width: 100%;
   background-color: #E9E9E9;
 }
 
 .contentContainer{
-  height: 1000px;
+  height: auto;
   width: 75%;
   margin: auto;
   background-color: #F3F3F3;;
@@ -114,7 +114,7 @@ h2{
 
 .pageContent{
   height: auto;
-  width: auto;
+  width: 93.5%;
   margin-top: 50px;
   margin-left: 50px;
 }
@@ -127,6 +127,11 @@ h2{
 .pageContent p{
   font-family: Franklin Gothic URW, sans-serif;
   font-size: 25px;
+}
+
+.pageContent{
+  font-family: A Pompadour Sample, sans-serif;
+  font-size: 35px;
 }
 
 footer{
