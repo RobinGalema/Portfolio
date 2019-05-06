@@ -112,6 +112,13 @@ h2{
   padding-top: 10px;
 }
 
+.pageContent p{
+  font-family: Franklin Gothic URW, sans-serif;
+  font-weight: regular;
+  font-size: 25px;
+  color: #3E4143;
+}
+
 .headerLine{
   border-width: 5px;
   border-style: solid;
