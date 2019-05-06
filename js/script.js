@@ -123,6 +123,7 @@ let currentPoc;
 
             }
           });
+
         }
         else if (pageIndex == 4)
         {
@@ -134,6 +135,43 @@ let currentPoc;
           // Store the index of the page which can be loaded after reloading the page
           currentPage = 4
           localStorage.setItem("currentPageNumber", currentPage)
+
+          fetchJSONFile('content/opdrachten.json', function(data) {
+            console.table(data.vakken[2]);
+            for(i=0; i < data.vakken[2].opdrachten.length; i++)
+            {
+              console.log("hey");
+              // Create the container div and give it the correct background image
+              console.table(data.vakken[2].opdrachten[i].title);
+              var pocContainer = document.createElement('div');
+              pocContainer.setAttribute('class', 'poc');
+              pocContainer.style.backgroundImage = "url('"+data.vakken[2].opdrachten[i].image+"')";
+
+              // Create the content div and give it the right onclick to go to the poc page
+              var pocContent = document.createElement('div');
+              pocContent.setAttribute('class', 'pocContent');
+              pocContent.setAttribute('onclick', 'loadOpdracht('+i+')');
+
+              // Create and append the title to an h2 element
+              var pocH2 = document.createElement('h2');
+              var h2Text = document.createTextNode(data.vakken[2].opdrachten[i].title);
+              pocH2.appendChild(h2Text);
+
+              // Create and append the subtitle to an p element
+              var pocP = document.createElement('p');
+              var pText = document.createTextNode(data.vakken[2].opdrachten[i].subtitle);
+              pocP.appendChild(pText);
+
+              // Append all the content for the thumbnail to the container
+              pocContent.appendChild(pocH2);
+              pocContent.appendChild(pocP);
+              pocContainer.appendChild(pocContent);
+
+              // Append the container with thumbnail to the page
+              document.getElementById("opdrachtenContainer").appendChild(pocContainer);
+
+            }
+          });
         }
         else if (pageIndex == 5)
         {
@@ -143,8 +181,6 @@ let currentPoc;
           // Scroll to the top of the page
           window.scrollTo(0,0)
           // Store the index of the page which can be loaded after reloading the page
-          currentPage = 5;
-          localStorage.setItem("currentPageNumber", currentPage);
         }
         else // Display page not found (404) if no index matched the input
         {
@@ -179,6 +215,45 @@ function loadPOC(id)
       // Scroll to the top of the page
       window.scrollTo(0,0)
     }
+
+    function loadOpdracht(id)
+        {
+          console.log("Opdracht ID: " + id);
+          getContent(5);
+
+          window.onload = fetchJSONFile('content/opdrachten.json', function(data){
+            var page = localStorage.getItem("currentPageNumber");
+            let vak;
+            if (page == 1)
+            {
+              vak = 0;
+            }
+            else if (page == 2)
+            {
+              vak = 1;
+            }
+            else if(page == 4)
+            {
+              vak = 2;
+            }
+
+            console.table(data.vakken[vak].opdrachten);
+            console.log(data.vakken[vak].opdrachten[id].title);
+
+            const title = document.getElementById('title');
+            const subtitle = document.getElementById('subtitle');
+            const image = document.getElementById('headImage');
+            const description = document.getElementById('description');
+
+            title.innerHTML = data.vakken[vak].opdrachten[id].title;
+            subtitle.innerHTML = data.vakken[vak].opdrachten[id].subtitle;
+            image.src = data.vakken[vak].opdrachten[id].image;
+            description.innerHTML = data.vakken[vak].opdrachten[id].description;
+          });
+
+          // Scroll to the top of the page
+          window.scrollTo(0,0)
+        }
 
 
 // Fucntion to make the navbar sticky, activated when the users scrolls on the page

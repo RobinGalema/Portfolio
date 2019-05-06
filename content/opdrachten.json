@@ -1,0 +1,52 @@
+{
+  "vakken":[
+    {
+      "id": 0,
+      "title": "PTM",
+      "opdrachten" :[
+
+      ]
+    },
+    {
+      "id": 1,
+      "title": "UEX",
+      "opdrachten": [
+
+      ]
+    },
+    {
+      "id": 2,
+      "title": "SCO",
+      "opdrachten":[
+        {
+          "id": 0,
+          "image": "images/calculator.jpg",
+          "title": "Visual Associations",
+          "subtitle": "Sprint 0",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 1,
+          "image": "images/rps.jpg",
+          "title": "Fotografie",
+          "subtitle": "Sprint 0 / 1",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 2,
+          "image": "images/timer.png",
+          "title": "Typografie",
+          "subtitle": "Sprint 1",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 3,
+          "image": "images/calculator.jpg",
+          "title": "Visual Associations",
+          "subtitle": "Sprint 0",
+          "description": "Dit is een beschrijving"
+        }
+      ]
+    }
+  ]
+}
