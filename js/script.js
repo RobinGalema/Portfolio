@@ -54,7 +54,7 @@ let currentPoc;
 
       fetchJSONFile('content/content.json', function(data) {
         // do something with your data
-        if (localStorage.getItem("currentPageNumber", currentPage) == 0)
+        if (localStorage.getItem("currentPageNumber") == 0)
         {
           fetchJSONFile('content/opdrachten.json', function(data) {
             console.table(data.vakken[1]);
@@ -93,7 +93,7 @@ let currentPoc;
             }
           });
         }
-        else if (localStorage.getItem("currentPageNumber", currentPage) == 1)
+        else if (localStorage.getItem("currentPageNumber") == 1)
         {
           // Create thumbnails for all pocs in the json file
           fetchJSONFile('content/pocs.json', function(poc) {
@@ -192,13 +192,12 @@ let currentPoc;
         window.scrollTo(0,0)
       });
         }
-      else if (localStorage.getItem("currentPageNumber", currentPage) == 6)
+      else if (localStorage.getItem("currentPageNumber") == 6)
       {
         id = localStorage.getItem("thisPOC");
         console.log("Opdracht ID: " + id);
-        getContent(5);
 
-        window.onload = fetchJSONFile('content/opdrachten.json', function(data){
+        fetchJSONFile('content/opdrachten.json', function(data){
 
           const vak = 2;
           console.table(data.vakken[vak].opdrachten);
@@ -246,23 +245,23 @@ function loadPOC(id)
     {
       console.log("POC ID: " + id);
       currentPage = 5;
-      localStorage.setItem("currentPageNumber", currentPage)
-      document.location.href = "pocs.html";
+      localStorage.setItem("currentPageNumber", currentPage);
       thispoc = id;
       localStorage.setItem("thisPOC", thispoc);
+      document.location.href = "pocs.html";
     }
 
     function loadOpdrachtSco(id) {
       currentPage = 6;
-      localStorage.setItem("currentPageNumber", currentPage)
-      document.location.href = "pocs.html";
+      localStorage.setItem("currentPageNumber", currentPage);
       thispoc = id;
       localStorage.setItem("thisPOC", thispoc);
+      document.location.href = "pocs.html";
     }
 
     function loadOpdrachtUex(id) {
       currentPage = 7;
-      localStorage.setItem("currentPageNumber", currentPage)
+      localStorage.setItem("currentPageNumber", currentPage);
       document.location.href = "pocs.html";
       thispoc = id;
       localStorage.setItem("thisPOC", thispoc);
