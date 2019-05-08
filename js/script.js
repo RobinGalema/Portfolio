@@ -260,7 +260,7 @@ function loadPOC(id)
       localStorage.setItem("thisPOC", thispoc);
     }
 
-    function loadOpdrachtSco(id) {
+    function loadOpdrachtUex(id) {
       currentPage = 7;
       localStorage.setItem("currentPageNumber", currentPage)
       document.location.href = "pocs.html";

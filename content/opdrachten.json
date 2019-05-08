@@ -20,30 +20,30 @@
       "opdrachten":[
         {
           "id": 0,
-          "image": "images/calculator.jpg",
+          "image": "images/visual.jpg",
           "title": "Visual Associations",
           "subtitle": "Sprint 0",
           "description": "Dit is een beschrijving"
         },
         {
           "id": 1,
-          "image": "images/rps.jpg",
+          "image": "images/fotografie.jpg",
           "title": "Fotografie",
           "subtitle": "Sprint 0 / 1",
           "description": "Dit is een beschrijving"
         },
         {
           "id": 2,
-          "image": "images/timer.png",
+          "image": "images/typografie.jpg",
           "title": "Typografie",
           "subtitle": "Sprint 1",
           "description": "Dit is een beschrijving"
         },
         {
           "id": 3,
-          "image": "images/calculator.jpg",
-          "title": "Visual Associations",
-          "subtitle": "Sprint 0",
+          "image": "images/logos.png",
+          "title": "Logo Design",
+          "subtitle": "Sprint 2",
           "description": "Dit is een beschrijving"
         }
       ]
