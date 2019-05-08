@@ -136,10 +136,18 @@ h2{
 }
 
 .flexpocimg{
-  width: 80%;
+  width: 100%;
   object-fit: contain;
   margin-top: 50px;
-  padding-left: 130px;
+  padding-left: 0px;
+  margin-bottom: 50px;
+}
+
+.flexpocimg50{
+  width: 50%;
+  object-fit: contain;
+  margin-top: 50px;
+  padding-left: 0px;
   margin-bottom: 50px;
 }
 

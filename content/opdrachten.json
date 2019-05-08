@@ -22,29 +22,36 @@
           "id": 0,
           "image": "images/visual.jpg",
           "title": "Visual Associations",
-          "subtitle": "Sprint 0",
+          "subtitle": "Vinden van beeldassociaties",
           "description": "Dit is een beschrijving"
         },
         {
           "id": 1,
           "image": "images/fotografie.jpg",
           "title": "Fotografie",
-          "subtitle": "Sprint 0 / 1",
+          "subtitle": "Foto's van architectuur op TU/e",
           "description": "Dit is een beschrijving"
         },
         {
           "id": 2,
           "image": "images/typografie.jpg",
           "title": "Typografie",
-          "subtitle": "Sprint 1",
-          "description": "Dit is een beschrijving"
+          "subtitle": "Posters maken met Typografie",
+          "description": "Voor Concepting ben ik bezig geweest met het maken van posters waarin gebruik wordt gemaakt van typografie. Ik heb op DaFont, Fontsquirrel en Adobe Typekit gezocht naar interessante / unieke fonts om mee te werken en ben vervolgens op Pinterest gaan zoeken naar inspiratie voor op typografie gebaseerde posters. <br><br> <i>Een paar voorbeelden van gevonden posters:</i><br> <img src='images/voorbeeldposters.jpg' alt='voorbeeldposters.' class='flexpocimg'><br> Van het eerste voorbeeld vond ik het vooral cool dat de lijnen van de rechte letters gebruikt zijn om de ruimte tussen de tekst te vullen door deze door te trekken en te gebruiken om verschillende vormen te maken.<br> Bij het tweede voorbeeld vind ik dat het in elkaar plaatsen van de letters een leuk effect geeft wat er leuk uitziet. Omdat alle letters met verschillende groottes in elkaar passen en zo het hele canvas ziet het er erg leuk bedacht uit.<br> Bij het derde voorbeeld vind ik vooral het idee om gebruik te maken van letters om een vorm te creëren een leuk idee. Ook al is in deze poster slechts van een steeds herhalende vorm gebruik gemaakt, vind ik het idee om letters te gebruiken om een vorm te maken een leuk idee. <br><br> Vervolgens ben ik met gedownloade lettertypes gaan experimenteren in Adobe Illustrator en heb ik zelf een aantal posters gemaakt.<br><br> <i>3 poster gemaakt naar aanleiding van de bovenstaande 3 voorbeelden:</i><br> <img src='images/gemaakteposters.jpg' alt='gemaakteposters.' class='flexpocimg'><br> Bij de eerste poster heb ik, net als ik het voorbeeld, geprobeerd om de lijnen van de rechte letters door te trekken en deze te gebruiken om met extra lijnen de ruimte tussen de tekst op te vullen. Ik vind deze poster, gebaseerd op het voorbeeld, redelijk goed gelukt aangezien ik het het hele lege stuk om de tekst redelijk goed heb kunnen vullen. Ik had achteraf wat minder lange lijnen willen gebruiken en meer korte lijnen willen gebruiken om zo meer textuur te creëren net als in het voorbeeld.<br><br> De tweede poster vind ik iets minder goed gelukt. Dit komt mede doordat het me niet overal is gelukt om alle letters even makkelijk in elkaar te schuiven, waardoor er op sommige plekken nog lege stukken te zien zijn. Ik heb voor het maken van deze poster verschillende fonts getest en uiteindelijk is het met dit cartoon-achtige font redelijk goed gelukt omdat de letters allemaal redelijk dezelfde vorm aanhouden en omdat de hoeken van de letters allemaal redelijk rond en de letters zelf redelijk recht zijn.<br><br> Bij de derde poster heb ik voor een erg rond font gekozen waarin alle letters met rondingen zijn gemaakt. Vervolgens heb ik een aantal letters op het canvas gezet en ben ik deze aan de uiteinden aan elkaar gaan verbinden om zo een grote vorm te maken. Uiteindelijk was het best lastig om de letters zo neer te zetten zodat ze en goed met elkaar verbonden waren en dat ze allemaal op het canvas pasten zonder dat ze door elkaar heen stonden. Ik ben uiteindelijk wel blij met het resultaat en denk dat het vooraf bedachte idee goed gelukt is.<br><br> Ik vond dit een leuke opdracht om te maken en ik ben hier ook mede daardoor best lang mee bezig geweest. Ik vond het leuk om door alleen letters te gebruiken vorm te geven aan een poster en heb hierdoor geleerd hoe ik typografie kan gebruiken om iets vorm te geven, hoe ik fonts op andere manieren dan alleen tekst kan gebruiken en hoe ik een canvas voor bijvoorbeeld een poster goed kan indelen.<br><br><a href='files/posters.pdf' target='blank'><button class='pocButton'>Alle posters</button></a>"
         },
         {
           "id": 3,
           "image": "images/logos.png",
           "title": "Logo Design",
-          "subtitle": "Sprint 2",
+          "subtitle": "Logo ontwerp voor een artiest",
           "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 4,
+          "image": "images/brandvalue.jpg",
+          "title": "Brand Value",
+          "subtitle":"Business Canvas Model",
+          "description": "In sprint 2 ben ik samen met mijn groep voor strategy bezig geweest met de brand value voor onze proftaak. Hiervoor hebben we in onze proftaakgroep een Business model canvas voor onze artiest ingevuld. We hebben eerst gekeken naar de huidige situatie van onze artiest en hiervoor de canvas ingevuld.<br><br> <i>Het business model canvas voor de huidige situatie van onze artiest:</i><br><img src='images/bmc2.png' alt='Business model canvas voor de huidige situatie.' class='flexpocimg50'><br> Na het invullen van de huidige situatie hebben we een nieuw canvas ingevuld voor onze artiest voor waar wij hem over een aantal jaar zien.<br><br> <i>Het business model canvas voor de toekomstige situatie:</i><br> <img src='images/bmc1.png' alt='Business model canvas voor de huidige situatie.' class='flexpocimg50'><br> Door na te denken over de huidige situatie van onze artiest en vervolgens vooral te gaan kijken naar hoe wij hem in de toekomst zien lijkt mij een handige manier om de stappen die moeten worden gezet om bij deze situatie te komen te visualiseren. Ik heb bij deze opdracht geleerd goed na te denken over wat er allemaal om een brand heen draait en welke dingen een belangrijke rol spelen in de waarde en de opbouw van een brand.<br> "
         }
       ]
     }
