@@ -56,7 +56,42 @@ let currentPoc;
         // do something with your data
         if (localStorage.getItem("currentPageNumber", currentPage) == 0)
         {
+          fetchJSONFile('content/opdrachten.json', function(data) {
+            console.table(data.vakken[1]);
+            for(i=0; i < data.vakken[1].opdrachten.length; i++)
+            {
+              console.log("hey");
+              // Create the container div and give it the correct background image
+              console.table(data.vakken[1].opdrachten[i].title);
+              var pocContainer = document.createElement('div');
+              pocContainer.setAttribute('class', 'poc');
+              pocContainer.style.backgroundImage = "url('"+data.vakken[1].opdrachten[i].image+"')";
 
+              // Create the content div and give it the right onclick to go to the poc page
+              var pocContent = document.createElement('div');
+              pocContent.setAttribute('class', 'pocContent');
+              pocContent.setAttribute('onclick', 'loadOpdrachtUex('+i+')');
+
+              // Create and append the title to an h2 element
+              var pocH2 = document.createElement('h2');
+              var h2Text = document.createTextNode(data.vakken[1].opdrachten[i].title);
+              pocH2.appendChild(h2Text);
+
+              // Create and append the subtitle to an p element
+              var pocP = document.createElement('p');
+              var pText = document.createTextNode(data.vakken[1].opdrachten[i].subtitle);
+              pocP.appendChild(pText);
+
+              // Append all the content for the thumbnail to the container
+              pocContent.appendChild(pocH2);
+              pocContent.appendChild(pocP);
+              pocContainer.appendChild(pocContent);
+
+              // Append the container with thumbnail to the page
+              document.getElementById("opdrachtenContainer").appendChild(pocContainer);
+
+            }
+          });
         }
         else if (localStorage.getItem("currentPageNumber", currentPage) == 1)
         {
@@ -114,7 +149,7 @@ let currentPoc;
               // Create the content div and give it the right onclick to go to the poc page
               var pocContent = document.createElement('div');
               pocContent.setAttribute('class', 'pocContent');
-              pocContent.setAttribute('onclick', 'loadOpdracht('+i+')');
+              pocContent.setAttribute('onclick', 'loadOpdrachtSco('+i+')');
 
               // Create and append the title to an h2 element
               var pocH2 = document.createElement('h2');
@@ -180,6 +215,28 @@ let currentPoc;
           description.innerHTML = data.vakken[vak].opdrachten[id].description;
         });
       }
+      else if (localStorage.getItem("currentPageNumber", currentPage) == 7)
+      {
+        id = localStorage.getItem("thisPOC");
+        console.log("Opdracht ID: " + id);
+
+        window.onload = fetchJSONFile('content/opdrachten.json', function(data){
+
+          const vak = 1;
+          console.table(data.vakken[vak].opdrachten);
+          console.log(data.vakken[vak].opdrachten[id].title);
+
+          const title = document.getElementById('title');
+          const subtitle = document.getElementById('subtitle');
+          const image = document.getElementById('headImage');
+          const description = document.getElementById('description');
+
+          title.innerHTML = data.vakken[vak].opdrachten[id].title;
+          subtitle.innerHTML = data.vakken[vak].opdrachten[id].subtitle;
+          image.src = data.vakken[vak].opdrachten[id].image;
+          description.innerHTML = data.vakken[vak].opdrachten[id].description;
+        });
+      }
       });
     };
 
@@ -195,14 +252,21 @@ function loadPOC(id)
       localStorage.setItem("thisPOC", thispoc);
     }
 
-    function loadOpdracht(id)
-        {
-          currentPage = 6;
-          localStorage.setItem("currentPageNumber", currentPage)
-          document.location.href = "pocs.html";
-          thispoc = id;
-          localStorage.setItem("thisPOC", thispoc);
-        }
+    function loadOpdrachtSco(id) {
+      currentPage = 6;
+      localStorage.setItem("currentPageNumber", currentPage)
+      document.location.href = "pocs.html";
+      thispoc = id;
+      localStorage.setItem("thisPOC", thispoc);
+    }
+
+    function loadOpdrachtSco(id) {
+      currentPage = 7;
+      localStorage.setItem("currentPageNumber", currentPage)
+      document.location.href = "pocs.html";
+      thispoc = id;
+      localStorage.setItem("thisPOC", thispoc);
+    }
 
 
 // Fucntion to make the navbar sticky, activated when the users scrolls on the page
