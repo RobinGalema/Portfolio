@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  width: 100%;
+  height: 90px;
+  background-color: #242424;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  z-index: 9;
+  transition-duration: 500ms;
+}
+
+.sticky {
+  position: fixed;
+  height: 70px;
+}
+
+.sticky .h1nav {
+  font-size: 45px;
+}
+
+.sticky .h2nav {
+  font-size: 20px;
+}
+
+.h1nav {
+  padding: 0;
+  margin: 0;
+  float: left;
+  font-family: brush script std;
+  color: #E9AA15;
+  font-size: 55px;
+  flex-basis: 60%;
+  transition-duration: 500ms;
+  cursor: pointer;
+}
+
+.h2nav {
+  padding: 0;
+  margin: 0;
+  float: left;
+  font-family: A Pompadour Sample;
+  font-weight: normal;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.70);
+  flex-basis: 5%;
+  cursor: pointer;
+  transition-duration: 500ms;
+  text-align: center;
+}
+
+.h2nav:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.h1LandingContainer {
+  padding: 0;
+  margin: 0;
+  font-family: A Pompadour Sample;
+  font-size: 110px;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+  color: white;
+}
+
+.h2LandingContaier {
+  padding: 0;
+  margin: 0;
+  font-family: A Pompadour Sample;
+  font-size: 55px;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px black;
+  color: #E9AA15;
+}
+
+.landingContainer {
+  background-image: url(/images/landingimage.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 500ms;
+}
+
+.landingButton {
+  background-color: #E9AA15;
+  border-style: none;
+  border-radius: 20px;
+  height: 60px;
+  width: 270px;
+  font-family: A Pompadour Sample;
+  font-size: 32px;
+  color: white;
+  margin-top: 100px;
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+
+.landingButton:hover {
+  background-color: #D49501;
+}
+
+.welcomeContainer {
+  height: auto;
+  width: 100%;
+  background-color: #242424;
+}
+
+.welcomeContent {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: space-between;
+}
+
+.welcomeContent h1 {
+  font-family: A Pompadour Sample, sans-serif;
+  font-size: 120px;
+  color: #D89F19;
+  padding-top: 100px;
+}
+
+.welcomeContent p {
+  margin: 0px;
+  padding: 0px;
+  font-family: FranklinGothic URW;
+  font-size: 30px;
+  color: white;
+  font-weight: 500;
+  padding-bottom: 150px;
+}
+
+.welcomeText {
+  margin: 0px;
+  width: 60%;
+}
+
+.welcomeImage {
+  height: 450px;
+  width: 450px;
+  box-shadow: 57px 57px #D89F19;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+.courseContainer {
+  height: auto;
+  width: 100%;
+  background-color: #303030;
+}
+
+.courses {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.courses h1 {
+  font-family: A Pompadour Sample, sans-serif;
+  font-size: 100px;
+  color: white;
+  padding-top: 100px;
+  flex-basis: 100%;
+  margin-bottom: 50px;
+}
+
+.course {
+  flex-basis: 48%;
+  height: 500px;
+  background-color: #242424;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  box-shadow: 13px 11px 20px black;
+}
+
+.courseName {
+  height: 29%;
+  flex-basis: 20%;
+  background-color: #D89F19;
+}
+
+.courseName h1 {
+  font-family: A Pompadour Sample, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding: 0px;
+  padding-top: 55px;
+}
+
+.courseImg {
+  background-color: grey;
+  flex-basis: 80%;
+  height: 29%;
+}
+
+.courseText {
+  flex-basis: 100%;
+  height: 71%;
+  margin: 0px;
+}
+
+.courseText p {
+  font-family: FranklinGothic URW;
+  font-weight: lighter;
+  color: white;
+  font-size: 25px;
+  margin: 30px;
+  margin-top: 10px;
+}
+
+.courseButton {
+  margin: auto;
+  text-align: center;
+  border: none;
+  background-color: #D89F19;
+  font-family: A Pompadour Sample, sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  height: 1.5em;
+  width: 7em;
+  cursor: pointer;
+  transition-duration: 400ms;
+}
+
+.courseButton:hover {
+  background-color: #FFBF29;
+  border-radius: 30px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  background-color: #242424;
+}
+
+.footerContainer{
+  width: 80%;
+  height: auto;
+  display: flex;
+  margin: auto;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
+.footerContainer h1{
+  font-family: brush script std;
+  color: #D89F19;
+  font-size: 57px;
+  flex-basis: 100%;
+}
+
+.footerLeft{
+  flex-basis: 55%;
+  font-family: FranklinGothic URW;
+  font-weight: lighter;
+  color: #DEDEDE;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.footerRight{
+  flex-basis: 15%;
+  text-align: right;
+  font-family: FranklinGothic URW;
+  font-weight: lighter;
+  color: #DEDEDE;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+footer hr{
+  width: 100%;
+  border-style: solid;
+  border-color: #DEDEDE;
+  border-width: 1px;
+  margin-bottom: 10px;
+}
+
+.footerEnd{
+  flex-basis: 100%;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 15px;
+  font-family: FranklinGothic URW;
+  font-weight: lighter;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 40px;
+}

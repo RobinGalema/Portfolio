@@ -1,0 +1,107 @@
+{
+  "vakken":[
+    {
+      "id": 0,
+      "title": "PTM",
+      "opdrachten" :[
+
+      ]
+    },
+    {
+      "id": 1,
+      "title": "UEX",
+      "opdrachten": [
+        {
+          "id": 0,
+          "image": "images/ucd.jpg",
+          "title": "User Centered Design",
+          "subtitle" : "De 5 'stages' van User Centered Design",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 1,
+          "image": "images/interview.jpg",
+          "title": "Interview",
+          "subtitle": "Onderzoek naar een doelgroep",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 2,
+          "image": "images/storyboarding.jpg",
+          "title": "Storyboarding",
+          "subtitle": "Het maken van een storyboard voor een artiest",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 3,
+          "image": "images/task.jpg",
+          "title": "Task Analysis",
+          "subtitle": "Onderzoek naar wensen gebruikers",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 4,
+          "image": "images/cards.jpg",
+          "title": "Card Sorting",
+          "subtitle": "Het belang van een duidelijke UI",
+          "description": "Bij de card sorting opdracht hebben we als groep voor Marktplaats als website gekozen. We zijn op de site gaan kijken naar welke producten er te koop zijn en hebben vervolgens een aantal dingen op briefjes geschreven. Vervolgens hebben we eerst zelf deze briefjes bij elkaar gelegd zodat ze volgens ons logische categorieën vormden.<br><br> <i>De briefjes door elkaar:</i><br> <img src='images/cardsorting2.png' alt='Alle gemaakte kaarten' class='flexpocimg'><br> Vervolgens hebben we aan mensen buiten onze groep gevraagd om de briefjes te verdelen in categorieën en deze vervolgens een naam te geven. Dit kwam daar uit:<br> <img src='images/cardsorting1.png' alt='De gesorteerde kaarten' class='flexpocimg'><br> We hebben het sorteren van onszelf vergeleken met die van anderen en zijn er zo achter gekomen dat er tussen personen toch bij een aantal categorieën en voorwerpen een ander resultaat uitkomt. Zo blijkt dat niet iedereen dezelfde voorwerpen bij dezelfde categorie ingedeeld en ook niet alle categorieën dezelfde naam / beschrijving geeft.<br><br> Hiervan heb ik geleerd dat het als maker van een applicatie of een website nog best wel lastig en een uitdaging kan zijn om een goede en voor iedereen duidelijk interface / verdeling te maken aangezien iedereen deze anders interpreteert.<br><br> Om een goed ontwerp te kunnen maken lijkt het mij dus van belang dat je van te voren goed onderzoek doet naar het gedrag en de interpretatie van de gebruiker. Card sorting lijkt me, voor het maken van categorieën voor een app of website een goede manier om dit te doen. Door dezelfde kaarten aan een grote groep mensen voor te leggen kan je de meest voorkomende combinaties en namen voor een categorie gebruiken zodat je systeem voor het grootste deel van de gebruikers goed te volgen is.<br><br< "
+        },
+        {
+          "id": 5,
+          "image": "images/paperprototype.jpg",
+          "title": "Paper Prototyping",
+          "subtitle": "Prototyping Pt.1",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 6,
+          "image": "images/techprototype.jpg",
+          "title": "Technisch Prototype",
+          "subtitle": "Prototyping Pt.2",
+          "description": "Dit is een beschrijving"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "SCO",
+      "opdrachten":[
+        {
+          "id": 0,
+          "image": "images/visual.jpg",
+          "title": "Visual Associations",
+          "subtitle": "Vinden van beeldassociaties",
+          "description": "In deze week ben ik bezig geweest met het zoeken naar beeldassociaties. Ik heb hierdoor geleerd wat beeldassociaties zijn en heb deze vervolgens verzameld in een document.<br><br> <i>Een aantal voorbeelden:</i> <img src='images/visualvb.png' alt='Voorbeelden' class='flexpocimg'>Bij het maken ben ik veel gaan zoeken op Google afbeeldingen en op Pinterest naar afbeeldingen die ik cool vond. Vervolgens ben ik gaan zoeken naar afbeeldingen die hierbij pasten. Dit bleek lastiger dan ik eerst dacht maar ik vind dat dit vooral bij het 2e, 3e en vierde voorbeeld goed gelukt omdat hiet de vorm en de lijnen in beide afbeeldingen goed overeenkomen en de associatie duidelijk te zien is. Bij het 1e voorbeeld heb ik vooral gekeken naar kleur en compositie en ik vind dit iets minder goed gelukt aangezien dit wellicht niet meteen te zien is.<br><br> Door het maken van deze opdracht heb ik een beter beeld gekregen bij wat beeldassociaties zijn en hoe je door te kijken naar 2 afbeeldingen deze kan matchen op een aantal aspecten zoals kleur, compositie, lijnenspel en vorm.<br><br><br<a href='files/visual.pdf' target='blank'><button class='pocButton'>Alle beeldassociaties</button></a>"
+        },
+        {
+          "id": 1,
+          "image": "images/fotografie.jpg",
+          "title": "Fotografie",
+          "subtitle": "Foto's van architectuur op TU/e",
+          "description": "In week 2 ben ik met SCO vooral bezig geweest met fotografie. Na een korte uitleg over de spiegelreflexcamera ben ik op het TU/e terrein foto’s gaan maken van architectuur. Ik heb vele foto’s gemaakt van verschillende gebouwen vanuit verschillende perspectieven. <br><br> Vervolgens heb ik de foto’s op mijn laptop gezet en deze bewerkt in Adobe Photoshop. Een aantal voorbeelden zijn hieronder te zien:<br><img src='images/tuFotos.png' alt='Foto's TU/e' class='flexpocimg'>De eerste en de vierde foto vind ik goed gelukt omdat beide foto's de gekozen gebouwen centraal in de foto staan en goed naar voren komen. Dit vind ik in de eerste foto iets beter als in de vierde foto. Op de eerste foto heb ik echter wel meer moeten bewerken aangezien ik hier gedeeltelijk tegenlicht had bij het maken van de foto. Bij de derde foto vind ik het ook goed gelukt om de grootte van het gebouw weer te geven ookal staat het gebouw in deze foto er niet compleet op maar loopt het van links naar het einde rechts.<br><br> De tweede foto vind ik zelf ook erg goed gelukt. Ik heb er hier voor gekozen om niet een heel gebouw te fotograferen maar een klein deel ervan. Vervolgens heb ik naar een goed perspectief gezocht om de reflectie in de ramen van het gebouw te gebruiken om een goede foto te maken. Ik denk dat dit goed is gelukt aangezien de rechterkant precies is gespiegeld in het raam.<br><br><br><br>In totaal heb ik meer dan 90 foto's gemaakt op het TU/e terrein en van deze foto's heb ik er 15 uitgekozen en bewerkt. Ik heb van elk gebouw meerdere foto's gemaakt en vervolgens de beste uitgezocht. Dit heb ik gedaan door te kijken op welke foto het licht, de focus en de positie het beste waren.<br> Hieronder staan een aantal foto's die ik heb gemaakt waaruit ik vervolgens de beste heb gekozen.<br><img src='images/keuzefoto1.png' alt='Foto's die ik heb gemaakt' class='flexpocimg'>De bovenstaande foto's zijn allemaal van hetzelfde gebouw. Van al deze foto's heb ik uiteindelijk de foto rechtsboven gekozen en bewerkt. Ik vond het idee dat ik had voor de foto, symmetrie maken door het spiegelen in de ramen het beste gelukt.<br>Bij de twee foto's links- en rechtsonder staat er links net een paal voor de lens waardoor het effect van de foto minder wordt.<br>Bij de foto rechtsboven is de afstand tussen de camera en het raam te groot waardoor het effect bijna niet te zien is.<br>In de middelste foto is de foto te ver van de raam af genomen en is daardoor de weespiegeling niet duidelijk te zien. Bovendien zijn hier de rolluiken in de ramen te zien die je in de gekozen foto niet kan zien.<br><br> Door naar al deze dingen voor compositie maar ook naar licht te kijken heb ik al mijn foto's gekozen.<br><br><img src='images/keuzefoto2.png' alt='Foto's die ik heb gemaakt' class='flexpocimg'>Bij de bovenstaande foto's heb ik ook voor de foto rechtsboven gekozen omdat op deze foto het gebouw goed te zien is en goed belicht is. Ook vind ik het contrast met de achtergrond goed ookal is de achtergrond wel aan de lichte kant. <br>Bij de foto rechtsonder is er veel te veel licht op de achtergrond waardoor vooral de bovenkant van het gebouw wegvalt en veel te licht is in verhouding met de rest van het gebouw.<br> Bij de foto linksonder is het gebouw juist veel te donker en is het contrast klein waardoor de onderkant van het gebouw erg slecht te zien.<br> Bij de laatste foto linksboven is eigenlijk hetzelfde aan de hand als bij de foto rechtsonder, de helderheid is veel te hoog en achtergrond is heel erg licht waardoor de bovenkant van het gebouw bijna niet meer contrasteert met de achtergrond.<br><br><br><a href='files/fotos.pdf' target='blank'><button class='pocButton'>Alle bewerkte foto's</button></a><br> <b> Conclusie </b> <br> Door het maken van deze opdracht heb ik een beter inzicht in fotografie gekregen. Door foto's te gaan maken met verschillende instellingen op de camera en deze vervolgens te vergelijken heb ik een beter beeld gekregen in hoe diafragma, sluitertijd en iso werken en hoe ik deze kan aanpassen om een beter foto te maken. Ook heb ik door foto's van gebouwen te moeten maken nagedacht over compositie en hoe ik de gebouwen op een goede manier kan fotograferen.<br><br> Vervolgens heb ik door mijn foto's te bekijken en te bewerken kunnen zien welke effecten verschillende instellingen op de camera hebben gehad op mijn foto's en door 'goede' foto's uit te kiezen kunnen zien wat er minder goed was aan andere foto's en hoe dit verbeterd kan worden door andere instellingen te gebruiken of door een andere positie te kiezen."
+        },
+        {
+          "id": 2,
+          "image": "images/typografie.jpg",
+          "title": "Typografie",
+          "subtitle": "Posters maken met Typografie",
+          "description": "Voor Concepting ben ik bezig geweest met het maken van posters waarin gebruik wordt gemaakt van typografie. Ik heb op DaFont, Fontsquirrel en Adobe Typekit gezocht naar interessante / unieke fonts om mee te werken en ben vervolgens op Pinterest gaan zoeken naar inspiratie voor op typografie gebaseerde posters. <br><br> <i>Een paar voorbeelden van gevonden posters:</i><br> <img src='images/voorbeeldposters.jpg' alt='voorbeeldposters.' class='flexpocimg'><br> Van het eerste voorbeeld vond ik het vooral cool dat de lijnen van de rechte letters gebruikt zijn om de ruimte tussen de tekst te vullen door deze door te trekken en te gebruiken om verschillende vormen te maken.<br> Bij het tweede voorbeeld vind ik dat het in elkaar plaatsen van de letters een leuk effect geeft wat er leuk uitziet. Omdat alle letters met verschillende groottes in elkaar passen en zo het hele canvas ziet het er erg leuk bedacht uit.<br> Bij het derde voorbeeld vind ik vooral het idee om gebruik te maken van letters om een vorm te creëren een leuk idee. Ook al is in deze poster slechts van een steeds herhalende vorm gebruik gemaakt, vind ik het idee om letters te gebruiken om een vorm te maken een leuk idee. <br><br> Vervolgens ben ik met gedownloade lettertypes gaan experimenteren in Adobe Illustrator en heb ik zelf een aantal posters gemaakt.<br><br> <i>3 poster gemaakt naar aanleiding van de bovenstaande 3 voorbeelden:</i><br> <img src='images/gemaakteposters.jpg' alt='gemaakteposters.' class='flexpocimg'><br> Bij de eerste poster heb ik, net als ik het voorbeeld, geprobeerd om de lijnen van de rechte letters door te trekken en deze te gebruiken om met extra lijnen de ruimte tussen de tekst op te vullen. Ik vind deze poster, gebaseerd op het voorbeeld, redelijk goed gelukt aangezien ik het het hele lege stuk om de tekst redelijk goed heb kunnen vullen. Ik had achteraf wat minder lange lijnen willen gebruiken en meer korte lijnen willen gebruiken om zo meer textuur te creëren net als in het voorbeeld.<br><br> De tweede poster vind ik iets minder goed gelukt. Dit komt mede doordat het me niet overal is gelukt om alle letters even makkelijk in elkaar te schuiven, waardoor er op sommige plekken nog lege stukken te zien zijn. Ik heb voor het maken van deze poster verschillende fonts getest en uiteindelijk is het met dit cartoon-achtige font redelijk goed gelukt omdat de letters allemaal redelijk dezelfde vorm aanhouden en omdat de hoeken van de letters allemaal redelijk rond en de letters zelf redelijk recht zijn.<br><br> Bij de derde poster heb ik voor een erg rond font gekozen waarin alle letters met rondingen zijn gemaakt. Vervolgens heb ik een aantal letters op het canvas gezet en ben ik deze aan de uiteinden aan elkaar gaan verbinden om zo een grote vorm te maken. Uiteindelijk was het best lastig om de letters zo neer te zetten zodat ze en goed met elkaar verbonden waren en dat ze allemaal op het canvas pasten zonder dat ze door elkaar heen stonden. Ik ben uiteindelijk wel blij met het resultaat en denk dat het vooraf bedachte idee goed gelukt is.<br><br> Ik vond dit een leuke opdracht om te maken en ik ben hier ook mede daardoor best lang mee bezig geweest. Ik vond het leuk om door alleen letters te gebruiken vorm te geven aan een poster en heb hierdoor geleerd hoe ik typografie kan gebruiken om iets vorm te geven, hoe ik fonts op andere manieren dan alleen tekst kan gebruiken en hoe ik een canvas voor bijvoorbeeld een poster goed kan indelen.<br><br><a href='files/posters.pdf' target='blank'><button class='pocButton'>Alle posters</button></a>"
+        },
+        {
+          "id": 3,
+          "image": "images/logos.png",
+          "title": "Logo Design",
+          "subtitle": "Logo ontwerp voor een artiest",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 4,
+          "image": "images/brandvalue.jpg",
+          "title": "Brand Value",
+          "subtitle":"Business Canvas Model",
+          "description": "In sprint 2 ben ik samen met mijn groep voor strategy bezig geweest met de brand value voor onze proftaak. Hiervoor hebben we in onze proftaakgroep een Business model canvas voor onze artiest ingevuld. We hebben eerst gekeken naar de huidige situatie van onze artiest en hiervoor de canvas ingevuld.<br><br> <i>Het business model canvas voor de huidige situatie van onze artiest:</i><br><img src='images/bmc1.png' alt='Business model canvas voor de huidige situatie.' class='flexpocimg50'><br>We hebben eerst de onderdelen van het BMC opgeschreven met whiteboardmarker, en hebben vervolgens stickynotes geplakt per onderdeel van het BMC. Dit is 2x uitgevoerd: de eerste keer om de huidige status van Mick Stender samen te vatten, en de tweede keer om de toekomstige status in kaart te brengen. Door een Brand Model Canvas te maken krijg je een soort samenvatting van de huidige status van een ‘merk’ (in dit geval: een artiest). <br><br> Na het invullen van de huidige situatie hebben we een nieuw canvas ingevuld voor onze artiest voor waar wij hem over een aantal jaar zien.<br><br> <i>Het business model canvas voor de toekomstige situatie:</i><br> <img src='images/bmc2.png' alt='Business model canvas voor de huidige situatie.' class='flexpocimg50'><br>In deze BMC hebben we de toekomstige (+/- 3 jaar) situatie van Mick samengevat. Hier vallen direct enkele dingen op: er zijn dubbel het aantal channels toegevoegd, het aantal revenue streams is vervijfvoudigd (van één naar vijf, vanwege meer bedrijfs interesse in het maken van sponsorships en merch), en er is sprake van een professioneel label en manager.<br><br> Door na te denken over de huidige situatie van onze artiest en vervolgens vooral te gaan kijken naar hoe wij hem in de toekomst zien lijkt mij een handige manier om de stappen die moeten worden gezet om bij deze situatie te komen te visualiseren. Ik heb bij deze opdracht geleerd goed na te denken over wat er allemaal om een brand heen draait en welke dingen een belangrijke rol spelen in de waarde en de opbouw van een brand.<br> "
+        }
+      ]
+    }
+  ]
+}

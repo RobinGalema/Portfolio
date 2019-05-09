@@ -1,25 +1,107 @@
 <!DOCTYPE html>
 <html lang='en' dir='ltr'>
-  <head>
-    <meta charset='utf-8'>
-    <link rel='stylesheet' href='style.css'>
-    <title>Portfolio Robin Galema</title>
-  </head>
-  <body id='body'>
 
-    <nav class="nav" id="navbar">
-      <h1 class="h1nav" onclick="getContent(0)"> Portfolio </h1>
-      <h2 class="h2nav" onclick="getContent(1)"> PTM </h2>
-      <h2 class="h2nav" onclick="getContent(2)"> UEX </h2>
-      <h2 class="h2nav" onclick="getContent(3)"> DEV </h2>
-      <h2 class="h2nav" onclick="getContent(4)"> SCO </h2>
-    </nav>
+<head id='pageHead'>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='style/main.css'>
+  <title>Portfolio Robin Galema</title>
+</head>
 
-<section id='content'>
+<body id='body'>
 
-</section>
+  <nav class='nav' id='navbar'>
+    <h1 class='h1nav' onclick='setContent(4)'> Portfolio </h1>
+    <h2 class='h2nav' onclick='setContent(3)'> PTM </h2>
+    <h2 class='h2nav' onclick='setContent(0)'> UEX </h2>
+    <h2 class='h2nav' onclick='setContent(1)'> DEV </h2>
+    <h2 class='h2nav' onclick='setContent(2)'> SCO </h2>
+  </nav>
 
-    <script src='js/script.js'></script>
+  <section id='content' class="content">
+    <div class='landingContainer'>
+      <h1 class='h1LandingContainer'> Robin Galema </h1>
+      <h2 class='h2LandingContaier'> Media Semester 2 </h2> <a href='#courseContainer'><button type='button' name='button' class='landingButton'> Naar Portfolio </button></a>
+    </div>
+    <div class='welcomeContainer'>
+      <div class='welcomeContent'>
+        <div class='welcomeText'>
+          <h1>Welkom!</h1>
+          <p> Welkom op mijn portfoliowebsite. Ik ben Robin Galema, een ICT &amp; Media student uit semester 2. Op deze website laat ik zien hoe ik mij in het afgelopen semester hebt ontwikkeld als media designer. <br> <br> In dit semester ben ik
+            samen met mijn projectgroep centraal bezig geweest met de porftaak die in het teken stond van branding van een artiest. In deze branding komen onderdelen van alle anderen vakken terug. Over al deze vakken (Development, Strategy &amp;
+            Concepting en User Experience) en de proftaak zal ik op deze website reflecteren en zal ik mijn gemaakte werk tonen. <br><br> Hieronder staan de 3 vakken en de porftaak kort beschreven. Door op 'lees verder' te klikken kom je op de pagina
+            voor dit vak. Op deze pagina's staan per vak mijn opdrachten met de hierbij horende reflecties.</p>
+        </div> <img src='images/welcomeimage.jpg' alt='Foto van Robin' class='welcomeImage'>
+      </div>
+      <div class='courseContainer' id='courseContainer'>
+        <div class='courses'>
+          <h1>Vakken</h1>
+          <div class='course'>
+            <div class='courseName'>
+              <h1>PTM</h1>
+            </div>
+            <div class='courseImg' style='background-image: url(images/ptmHead.png)'></div>
+            <div class='courseText'>
+              <p>Voor de proftaak ben ik samen met mijn projectgroep bezig geweest met de branding voor een artiest van de Rock Acedemie Tilburg.<br><br> Wij hebben voor Mick Stender, een ruige Americana artiest, in dit semester verschillende
+                producten gemaakt voor zijn branding. Mijn bijdrage aan de proftaak is hier terug te vinden.</p>
+              <div style='text-align: center;'> <button type='button' class='courseButton' id='ptmButton' onclick='setContent(0)'>Lees meer</button> </div>
+            </div>
+          </div>
+          <div class='course'>
+            <div class='courseName'>
+              <h1>UEX</h1>
+            </div>
+            <div class='courseImg' style='background-image: url(images/uexHead.png)'></div>
+            <div class='courseText'>
+              <p>Bij UEX ben ik dit semester bezig geweest met onderzoek doen en met prototypen.<br><br> Om een goede gebruikservaring te maken hebben we bij UEX verschillende onderzoeken gedaan en verschillende prototypes leren maken. Dit om de
+                gebruiker een goede ervaring te geven en problemen in het process te voorkomen / verhelpen</p>
+              <div style='text-align: center;'> <button type='button' class='courseButton' id='ptmButton' onclick='setContent(0)'>Lees meer</button> </div>
+            </div>
+          </div>
+          <div class='course'>
+            <div class='courseName'>
+              <h1>DEV</h1>
+            </div>
+            <div class='courseImg' style='background-image: url(images/devHead.png)'></div>
+            <div class='courseText'>
+              <p> Voor Development ben ik dit semester bezig geweest met HTML, CSS en vooral Javascript. Door middel van het maken kleine Proof of Concepts (POCs) ben ik bezig geweest met het aantonen van de leerdoelen van Development. <br><br>Op de
+                Development pagina staan al mijn gemaakte Proof of Concepts waarin ik mijn leerdoelen aantoon. </p>
+              <div style='text-align: center;'> <button type='button' class='courseButton' id='ptmButton' onclick='setContent(1)'>Lees meer</button> </div>
+            </div>
+          </div>
+          <div class='course'>
+            <div class='courseName'>
+              <h1>SCO</h1>
+            </div>
+            <div class='courseImg' style='background-image: url(images/scoHead.png)'></div>
+            <div class='courseText'>
+              <p>Bij Strategy &amp; Concepting zijn we met verschillende dingen bezig geweest. Aan de Strategy kant hebben we gekeken naar een goede strategie om onze artiest te branden en hebben we business kant van de branding gekeken terwijl we
+                bij Concepting vooral met de visuele kant bezig zijn geweest.<br><br>We hebben gekeken naar fotografie, typografie. logo design etc.</p>
+              <div style='text-align: center;'> <button type='button' class='courseButton' id='ptmButton' onclick='setContent(2)'>Lees meer</button> </div>
+            </div>
+          </div>
+          <div style='height: 100px; width: 100%;'></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  </body>
+  <footer>
+    <div class="footerContainer">
+      <h1>Portfolio</h1>
+      <p class="footerLeft">Robin Galema</p>
+      <p class="footerRight">Semester 1</p>
+      <p class="footerRight">About</p>
+      <p class="footerRight">Contact</p>
+      <p class="footerLeft">Media Semester 2</p>
+      <p class="footerLeft">Fontys FHICT</p>
+      <hr>
+      </hr>
+      <p class="footerEnd">© Robin Galema. All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src='js/script.js'></script>
+
+</body>
+
 </html>
