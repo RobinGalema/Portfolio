@@ -11,7 +11,55 @@
       "id": 1,
       "title": "UEX",
       "opdrachten": [
-
+        {
+          "id": 0,
+          "image": "images/ucd.jpg",
+          "title": "User Centered Design",
+          "subtitle" : "De 5 'stages' van User Centered Design",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 1,
+          "image": "images/interview.jpg",
+          "title": "Interview",
+          "subtitle": "Onderzoek naar een doelgroep",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 2,
+          "image": "images/storyboarding.jpg",
+          "title": "Storyboarding",
+          "subtitle": "Het maken van een storyboard voor een artiest",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 3,
+          "image": "images/task.jpg",
+          "title": "Task Analysis",
+          "subtitle": "Onderzoek naar wensen gebruikers",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 4,
+          "image": "images/cards.jpg",
+          "title": "Card Sorting",
+          "subtitle": "Het belang van een duidelijke UI",
+          "description": "Bij de card sorting opdracht hebben we als groep voor Marktplaats als website gekozen. We zijn op de site gaan kijken naar welke producten er te koop zijn en hebben vervolgens een aantal dingen op briefjes geschreven. Vervolgens hebben we eerst zelf deze briefjes bij elkaar gelegd zodat ze volgens ons logische categorieën vormden.<br><br> <i>De briefjes door elkaar:</i><br> <img src='images/cardsorting2.png' alt='Alle gemaakte kaarten' class='flexpocimg'><br> Vervolgens hebben we aan mensen buiten onze groep gevraagd om de briefjes te verdelen in categorieën en deze vervolgens een naam te geven. Dit kwam daar uit:<br> <img src='images/cardsorting1.png' alt='De gesorteerde kaarten' class='flexpocimg'><br> We hebben het sorteren van onszelf vergeleken met die van anderen en zijn er zo achter gekomen dat er tussen personen toch bij een aantal categorieën en voorwerpen een ander resultaat uitkomt. Zo blijkt dat niet iedereen dezelfde voorwerpen bij dezelfde categorie ingedeeld en ook niet alle categorieën dezelfde naam / beschrijving geeft.<br><br> Hiervan heb ik geleerd dat het als maker van een applicatie of een website nog best wel lastig en een uitdaging kan zijn om een goede en voor iedereen duidelijk interface / verdeling te maken aangezien iedereen deze anders interpreteert.<br><br> Om een goed ontwerp te kunnen maken lijkt het mij dus van belang dat je van te voren goed onderzoek doet naar het gedrag en de interpretatie van de gebruiker. Card sorting lijkt me, voor het maken van categorieën voor een app of website een goede manier om dit te doen. Door dezelfde kaarten aan een grote groep mensen voor te leggen kan je de meest voorkomende combinaties en namen voor een categorie gebruiken zodat je systeem voor het grootste deel van de gebruikers goed te volgen is.<br><br< "
+        },
+        {
+          "id": 5,
+          "image": "images/paperprototype.jpg",
+          "title": "Paper Prototyping",
+          "subtitle": "Prototyping Pt.1",
+          "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 6,
+          "image": "images/techprototype.jpg",
+          "title": "Technisch Prototype",
+          "subtitle": "Prototyping Pt.2",
+          "description": "Dit is een beschrijving"
+        }
       ]
     },
     {
@@ -23,7 +71,7 @@
           "image": "images/visual.jpg",
           "title": "Visual Associations",
           "subtitle": "Vinden van beeldassociaties",
-          "description": "Dit is een beschrijving"
+          "description": "In deze week ben ik bezig geweest met het zoeken naar beeldassociaties. Ik heb hierdoor geleerd wat beeldassociaties zijn en heb deze vervolgens verzameld in een document.<br><br> <i>Een aantal voorbeelden:</i> <img src='images/visualvb.png' alt='Voorbeelden' class='flexpocimg'>Bij het maken ben ik veel gaan zoeken op Google afbeeldingen en op Pinterest naar afbeeldingen die ik cool vond. Vervolgens ben ik gaan zoeken naar afbeeldingen die hierbij pasten. Dit bleek lastiger dan ik eerst dacht maar ik vind dat dit vooral bij het 2e, 3e en vierde voorbeeld goed gelukt omdat hiet de vorm en de lijnen in beide afbeeldingen goed overeenkomen en de associatie duidelijk te zien is. Bij het 1e voorbeeld heb ik vooral gekeken naar kleur en compositie en ik vind dit iets minder goed gelukt aangezien dit wellicht niet meteen te zien is.<br><br> Door het maken van deze opdracht heb ik een beter beeld gekregen bij wat beeldassociaties zijn en hoe je door te kijken naar 2 afbeeldingen deze kan matchen op een aantal aspecten zoals kleur, compositie, lijnenspel en vorm.<br><br><br<a href='files/visual.pdf' target='blank'><button class='pocButton'>Alle beeldassociaties</button></a>"
         },
         {
           "id": 1,
@@ -51,7 +99,7 @@
           "image": "images/brandvalue.jpg",
           "title": "Brand Value",
           "subtitle":"Business Canvas Model",
-          "description": "In sprint 2 ben ik samen met mijn groep voor strategy bezig geweest met de brand value voor onze proftaak. Hiervoor hebben we in onze proftaakgroep een Business model canvas voor onze artiest ingevuld. We hebben eerst gekeken naar de huidige situatie van onze artiest en hiervoor de canvas ingevuld.<br><br> <i>Het business model canvas voor de huidige situatie van onze artiest:</i><br><img src='images/bmc1.png' alt='Business model canvas voor de huidige situatie.' class='flexpocimg50'><br> Na het invullen van de huidige situatie hebben we een nieuw canvas ingevuld voor onze artiest voor waar wij hem over een aantal jaar zien.<br><br> <i>Het business model canvas voor de toekomstige situatie:</i><br> <img src='images/bmc2.png' alt='Business model canvas voor de huidige situatie.' class='flexpocimg50'><br> Door na te denken over de huidige situatie van onze artiest en vervolgens vooral te gaan kijken naar hoe wij hem in de toekomst zien lijkt mij een handige manier om de stappen die moeten worden gezet om bij deze situatie te komen te visualiseren. Ik heb bij deze opdracht geleerd goed na te denken over wat er allemaal om een brand heen draait en welke dingen een belangrijke rol spelen in de waarde en de opbouw van een brand.<br> "
+          "description": "In sprint 2 ben ik samen met mijn groep voor strategy bezig geweest met de brand value voor onze proftaak. Hiervoor hebben we in onze proftaakgroep een Business model canvas voor onze artiest ingevuld. We hebben eerst gekeken naar de huidige situatie van onze artiest en hiervoor de canvas ingevuld.<br><br> <i>Het business model canvas voor de huidige situatie van onze artiest:</i><br><img src='images/bmc1.png' alt='Business model canvas voor de huidige situatie.' class='flexpocimg50'><br>We hebben eerst de onderdelen van het BMC opgeschreven met whiteboardmarker, en hebben vervolgens stickynotes geplakt per onderdeel van het BMC. Dit is 2x uitgevoerd: de eerste keer om de huidige status van Mick Stender samen te vatten, en de tweede keer om de toekomstige status in kaart te brengen. Door een Brand Model Canvas te maken krijg je een soort samenvatting van de huidige status van een ‘merk’ (in dit geval: een artiest). <br><br> Na het invullen van de huidige situatie hebben we een nieuw canvas ingevuld voor onze artiest voor waar wij hem over een aantal jaar zien.<br><br> <i>Het business model canvas voor de toekomstige situatie:</i><br> <img src='images/bmc2.png' alt='Business model canvas voor de huidige situatie.' class='flexpocimg50'><br>In deze BMC hebben we de toekomstige (+/- 3 jaar) situatie van Mick samengevat. Hier vallen direct enkele dingen op: er zijn dubbel het aantal channels toegevoegd, het aantal revenue streams is vervijfvoudigd (van één naar vijf, vanwege meer bedrijfs interesse in het maken van sponsorships en merch), en er is sprake van een professioneel label en manager.<br><br> Door na te denken over de huidige situatie van onze artiest en vervolgens vooral te gaan kijken naar hoe wij hem in de toekomst zien lijkt mij een handige manier om de stappen die moeten worden gezet om bij deze situatie te komen te visualiseren. Ik heb bij deze opdracht geleerd goed na te denken over wat er allemaal om een brand heen draait en welke dingen een belangrijke rol spelen in de waarde en de opbouw van een brand.<br> "
         }
       ]
     }

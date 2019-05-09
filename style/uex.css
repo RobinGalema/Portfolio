@@ -76,7 +76,7 @@ h2{
 }
 
 .contentContainer{
-  height: 2000px;
+  height: auto;
   width: 75%;
   margin: auto;
   background-color: #F3F3F3;
@@ -126,6 +126,53 @@ h2{
   width: 820px;
   margin-left: 0px;
   border-radius: 10px;
+}
+
+.poccontainer{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.poc{
+  background-size: cover;
+  flex-basis: calc(100% / 3);
+  height: 392px;
+}
+
+.pocContent{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(62,65,67,0.7);
+  display: flex;
+  flex-direction: column  ;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 400ms;
+  cursor: pointer;
+}
+
+.pocContent:hover{
+  background-color: rgba(233,170,21,0.7)
+}
+
+.poccontainer h2{
+  font-family: A Pompadour Sample;
+  font-size: 50px;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 10%;
+  text-align: center;
+}
+
+.pocContent p{
+  font-family: A Pompadour Sample;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 footer{
