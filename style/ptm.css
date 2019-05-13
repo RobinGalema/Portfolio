@@ -76,7 +76,7 @@ h2{
 }
 
 .contentContainer{
-  height: 2000px;
+  height: auto;
   width: 75%;
   margin: auto;
   background-color: #F3F3F3;
@@ -115,7 +115,7 @@ h2{
 .pageContent p{
   font-family: Franklin Gothic URW, sans-serif;
   font-weight: regular;
-  font-size: 25px;
+  font-size: 20px;
   color: #3E4143;
 }
 
@@ -126,6 +126,17 @@ h2{
   width: 820px;
   margin-left: 0px;
   border-radius: 10px;
+}
+
+.artisticexploration{
+  margin: auto;
+  width: 80%;
+  height: auto;
+}
+
+.pdfembed{
+  width: 100%;
+  height: 800px;
 }
 
 footer{
