@@ -1,0 +1,51 @@
+body{
+  padding: 50px;
+  margin: 0;
+  background-color: #3e244e;
+}
+
+p{
+  font-family: coolvetica;
+  color: white;
+}
+
+.container{
+  text-align: center;
+}
+
+.button{
+  background-color: #3c5fa4;
+  border: none;
+  color: white;
+  font-family: coolvetica;
+  font-size: 25px;
+  width: 40px;
+  border-radius: 10px;
+  transition-duration: 400ms;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.button:hover{
+  background-color: #6189d8;
+}
+
+.textBox{
+  background-color: rgba(0, 0, 0, 0);
+  border-style: solid;
+  border-color: #8779e4;
+  border-radius: 15px;
+  font-family: coolvetica;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  transition-duration: 500ms;
+}
+
+.textBox:hover{
+  background-color: #8779e4;
+}
+
+.textBox:focus{
+  background-color: #8779e4;
+}

@@ -10,30 +10,30 @@
     {
       "id": 1,
       "image": "images/calculator.jpg",
-      "title": "Js Calculator",
-      "subtitle": "A simple calculator with Javascript",
-      "description": "dit is een beschrijving"
+      "title": "Basic Javascript",
+      "subtitle": "De basis van Javascript",
+      "description": "Bij het begin van sprint 2 ben ik begonnen met de basis van Javascript. Aangezien ik al een beetje ervaring had met javascript heb ik de basis herhaald door het maken van 2 kleine webpagina’s. Een simpele rekenmachine en een steen, papier schaar spel.<br><br> Bij het maken van deze 2 webpagina’s heb ik gebruikt gemaakt van variabelen, functies, If statements en een beetje DOM. Door dit te doen ging de basis van javascript weer wat soepeler.<br><br> Ik vond het voor mezelf fijn om deze 2 applicaties te maken omdat ik zo voor mezelf even kort kon herhalen wat ik al eerder heb geleerd. Verder heb ik ook nog een beetje verder geëxperimenteerd / geoefend met CSS door de opmaak van de pagina.<br><br> <i>De 2 gemaakte webpagina’s:</i> <img src='images/jsbasic1.png' alt='De tweede versie van het storyboard' class='flexpocimg'> <br> <img src='images/jsbasic2.png' alt='De tweede versie van het storyboard' class='flexpocimg'> <br> Bij het maken van het steen, papier, schaar spel heb ik naast het herhalen van wat ik al wist, ook geleerd hoe ik met javascript nieuwe tekst in een lege div kan zetten en deze te updaten om in dit geval aan te kunnen geven wie het spel heeft gewonnen.<br><br> Link naar de 2 pocs met de code:<br><br><a href='/pocs/calculator/index.html' target='blank'><button class='pocButton'>JS Calculator</button></a><a href='/pocs/rps/index.html' target='blank'><button class='pocButton'>Rock, Papaer, Scissors</button></a>"
     },
     {
       "id": 2,
-      "image": "images/rps.jpg",
-      "title": "Rock, Paper, Scissors",
-      "subtitle": "A Simple Javascript Game",
-      "description": "dit is een beschrijving"
-    },
-    {
-      "id": 3,
       "image": "images/dom.jpg",
       "title": "DOM",
       "subtitle": "Using Js to change content",
       "description": "In de rest van sprint 1 ben ik bezig geweest met DOM voor Javascript. Na een uitleg in de vissenkom en wat research op W3schools heb ik een POC gemaakt waarin ik geleerd heb hoe ik stijl kan toevoegen aan een div en hoe ik div’s kan aanpassen om bijvoorbeeld tekst op het scherm te zetten of een bepaalde class of stijl aan een div kan geven. <br><br> Door het maken van deze POC heb ik een beter inzicht gekregen in hoe ik DOM kan gebruiken om met Javascript de stijl en de content van een website kan aanpassen of nieuwe content toe kan voegen of verwijderen. <br><br> In mijn gemaakte POC kun je door op de div’s te klikken de stijl / tekst laten veranderen doordat er in mijn javascript een bepaalde class aan de div wordt gekoppeld of doordat er nieuwe tekst wordt aangemaakt. <br><br><a href='/pocs/dom/index.html' target='blank'><button class='pocButton'>DOM POC + Code</button></a><br><i>Een voor- en na screenshot van mijn gemaakte POC voor het gebruik van DOM om divs stijl en/of tekst te geven:<br></i><img src='images/dombefore.jpg' alt='Foto van de poc.' class='flexpocimg'><img src='images/domafter.jpg' alt='Foto van de poc.' class='flexpocimg'> "
     },
     {
-      "id" : 4,
+      "id" : 3,
       "image": "images/timer.png",
       "title": "Arrays & Timers",
       "subtitle" : "Changing color on a timer",
       "description" : "Dit is een beschrijving"
+    },
+    {
+      "id": 4,
+      "image": "images/git.jpg",
+      "title": "Versiebeheer",
+      "subtitle": "Gebruikt van Git met Github",
+      "description":"Bij het maken van mijn portfolio heb ik gebruik gemaakt van versiebeheer in de vorm van Git. Aangezien ik in het vorige semeseter ook al even met Git in de vorm van GitHub heb gewerkt voor de proftaak heb ik ervoor gekozen om ook nu weer met GitHub te werken aangezien ik hier al bekend mee was en dit al set-up op mijn laptop had. <br> Om in mijn GitHub repository te werken heb ik GitKraken gebruikt als interface aangezien ik hier ook al eerder mee gewerkt had.<br><br> Vervolgens heb ik een nieuwe repository op GitHub aangemaakt en de eerste versie van mijn Portfolio geupload en vervolgens de repository op Gitkraken geopend om zo verder te werken.<br><br> Ik heb tijdens het maken van nieuwe pagina's of nieuwe delen van mijn website in een aparte branch gewerkt en zodra een nieuw deel van mijn website af was heb ik deze gemerged met de master branch waar ik altijd de laatste werkende versie van mijn portfolio in heb staan. Tijdens het werken heb ik steeds bij een aantal afgeronden aanpassingen / toevoegingen een commit gedaan via GitKraken en aan het einde van de dag of na het doen van een grotere update deze gepushed naar GitHub. <br><br> Door Git te gebruiken om mijn portfolio te maken heb ik de basis van Git geleerd en hoe ik dit kan gebruiken om een duidelijk overzicht te krijgen in hoe ik mijn portfolio heb opgebouwd. Ook weet ik nu hoe ik Git kan gebruiken om eerdere versies van mijn Portfolio terug te halen om fouten eruit te halen en dit tegelijkertijd te kunnen gebruiken als online backup. <br> <br> Hieronder staat een lijst van al mijn commits die ik heb gedaan voor het maken van mijn portfolio. Door op de beschrijving van de commit te klikken wordt er naar de GitHub pagina van de commit gelinkt. Onder de lijst staat ook nog een link naar de gehele repository op GitHub.<br><br><div style='margin:auto; width:500px; margin-top:50px;'><iframe class='gitwidget' src='http://tylerlh.github.com/github-latest-commits-widget/?username=RobinGalema&repo=Portfolio&branch=working&limit=200'allowtransparency='true' frameborder='0' scrolling='yes' width='500px' height='250px'></iframe></div><br><div style='margin:auto; width:250px;'><a href='https://github.com/RobinGalema/Portfolio' target='blank'><button class='pocButton'>GitHub Repository</button></a></div>"
     }
   ]
 }
