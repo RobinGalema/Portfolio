@@ -12,7 +12,7 @@
       "image": "images/calculator.jpg",
       "title": "Basic Javascript",
       "subtitle": "De basis van Javascript",
-      "description": "dit is een beschrijving"
+      "description": "Bij het begin van sprint 2 ben ik begonnen met de basis van Javascript. Aangezien ik al een beetje ervaring had met javascript heb ik de basis herhaald door het maken van 2 kleine webpagina’s. Een simpele rekenmachine en een steen, papier schaar spel.<br><br> Bij het maken van deze 2 webpagina’s heb ik gebruikt gemaakt van variabelen, functies, If statements en een beetje DOM. Door dit te doen ging de basis van javascript weer wat soepeler.<br><br> Ik vond het voor mezelf fijn om deze 2 applicaties te maken omdat ik zo voor mezelf even kort kon herhalen wat ik al eerder heb geleerd. Verder heb ik ook nog een beetje verder geëxperimenteerd / geoefend met CSS door de opmaak van de pagina.<br><br> <i>De 2 gemaakte webpagina’s:</i> <img src='images/jsbasic1.png' alt='De tweede versie van het storyboard' class='flexpocimg'> <br> <img src='images/jsbasic2.png' alt='De tweede versie van het storyboard' class='flexpocimg'> <br> Bij het maken van het steen, papier, schaar spel heb ik naast het herhalen van wat ik al wist, ook geleerd hoe ik met javascript nieuwe tekst in een lege div kan zetten en deze te updaten om in dit geval aan te kunnen geven wie het spel heeft gewonnen.<br><br> Link naar de 2 pocs met de code:<br><br><a href='/pocs/calculator/index.html' target='blank'><button class='pocButton'>JS Calculator</button></a><a href='/pocs/rps/index.html' target='blank'><button class='pocButton'>Rock, Papaer, Scissors</button></a>"
     },
     {
       "id": 2,
