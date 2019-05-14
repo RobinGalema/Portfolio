@@ -1,0 +1,22 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: red;
+  transition-duration: 500ms;
+}
+
+#timer{
+  font-family: sans-serif;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 300px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#tekst{
+  font-family: sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
