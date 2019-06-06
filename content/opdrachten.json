@@ -106,7 +106,7 @@
           "image": "images/magazine.png",
           "title" : "Magazine Page Layout",
           "subtitle" : "Magazine Design",
-          "description": "yeet"
+          "description": "Voor het maken van twee pagina's van een magazine ben ik eerst gaan zoeken naar een artikel over onze artiest. Vervolgens heb ik een artikel gekozen dat een goede hoeveelheid tekst had om 2 pagina's te kunnen vullen. <br> Vervolgens heb ik gekeken op internet naar verschillende soorten grid-layouts voor een magazine. Ik heb voorbeelden gezocht op Pinterest en Google om te kijken naar hoe een magazine normaal is opgebouwd. Hierna ben ik in InDesign zelf een grid gaan maken en heb deze vervolgens uitgewerkt naar een eindproduct. <br><br> Hiervoor heb ik eerst een lay-out gemaakt voor hoe de pagina is opgedeeld. Dit heb ik gedaan door vakken op de pagina te zetten en deze vervolgens een doel te geven (content, titel, inleiding). Vervolgens heb ik de tekst van het artikel toegevoegd aan de lay-out en heb ik de lege plekken die overbleven gevuld met nieuwe vakken voor foto's en quote's. Hierna heb ik foto's van onze artiest gezocht en deze hierin gezet. Hierna heb ik de pagina opgemaakt in de stijl van onze Brandguide. De 4 hierboven beschreven versies zijn hieronder te zien. <br><br> <div style='margin:auto; width:95%;'> <img src='images/magazineDesign.png' alt='De lay-out voor het magazine' width='100%'> </div>"
         },
         {
           "id": 6,
@@ -114,6 +114,13 @@
           "title": "Brand Style Guide",
           "subtitle": "Branguide Mick Stender",
           "description" : "yeet"
+        },
+        {
+          "id": 7,
+          "image" : "images/studiofoto.png",
+          "title" :  "Studio fotografie",
+          "subtitle": "Fotografie V2",
+          "description": "yeet"
         }
       ]
     }
