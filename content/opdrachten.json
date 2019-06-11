@@ -55,10 +55,21 @@
         },
         {
           "id": 6,
-          "image": "images/techprototype.jpg",
-          "title": "Technisch Prototype",
+          "image": "images/fysiekprototype.jpg",
+          "title": "Fysiek Prototype",
           "subtitle": "Prototyping Pt.2",
           "description": "Dit is een beschrijving"
+        },
+        {
+          "id": 7,
+          "image" : "images/technischprototype",
+          "title": "Technisch Prototype",
+          "subtitle" : "Prototyping Pt.3",
+          "description": "yeet"
+        },
+        {
+          "id": 8,
+          "image": "images/"
         }
       ]
     },
