@@ -113,6 +113,8 @@ h2 {
   font-size: 32px;
   color: white;
   margin-top: 100px;
+  margin-right: 20px;
+  margin-left: 20px;
   transition-duration: 300ms;
   cursor: pointer;
 }
