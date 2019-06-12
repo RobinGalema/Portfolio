@@ -160,7 +160,7 @@ h2 {
 .welcomeContent p {
   margin: 0px;
   padding: 0px;
-  font-family: FranklinGothic URW;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 30px;
   color: white;
   font-weight: 500;
@@ -245,7 +245,7 @@ h2 {
 }
 
 .courseText p {
-  font-family: FranklinGothic URW;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: lighter;
   color: white;
   font-size: 25px;
