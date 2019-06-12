@@ -55,14 +55,14 @@
         },
         {
           "id": 6,
-          "image": "images/fysiekprototype.jpg",
+          "image": "images/fysiekprototype.png",
           "title": "Fysiek Prototype",
           "subtitle": "Prototyping",
-          "description": "Dit is een beschrijving"
+          "description": "Na het maken van een paper prototype ben ik bezig geweest met het maken van een fysiek prototype. Ik heb in de les van UX samen met Thomas een fysiek prototype van een Reddit-Bot gemaakt. We hebben van de site Reddit een robot gemaakt die op commando posts uitprint.<br><br> We hebben eerst met karton een doos gemaakt om de 'posts', geschreven op stikcy notes, in te doen. Vervolgens hebben we de knoppen toegevoegd die je normaal op de reddit pagina ook kan vinden en hebben we knoppen toegevoegd om naar een ander onderwerp op Reddit te switchen. Ondertussen hebben we op de sticky notes een aantal posts geschreven voor in de robot. Hieronder is te zien hoe het prototype eruit ziet:<br><img src='images/fysiekprototype1.png' alt='Alle gemaakte kaarten' class='flexpocimg'> <br> Linksboven is, net als op de website, het logo van Reddit te zien. In het midden is een opening waar alle kaarten doorheen worden gehaald om ze te laten 'printen'. Onder de opening zijn de up- en downvote knoppen te vinden en linksonder kun je naar een andere catergorie gaan.<br><br> Om het prototype te demonstreren hebben we een iemand van achteren de kaartjes door de gleuf laten duwen asl de gebruiker op de knop drukte om naar een andere categorie te gaan. Vervolgens kan de gebruiker zelf de kaarten bekijken en scrollen doro de kaarten uit de opening te trekken of ze er terug in te doen. Een filmpje van de test is hieronder te zien:<div style='margin:auto; width:75%;'> <embed class='videoembed' src='files/physicalprototype.mp4'></div> <br> Door deze opdracht te maken heb ik een beter beeld gekregen bij wat een fysiek prototype is en hoe je deze kan gebruiken. Ondanks dat onze toepassing voor de opdracht verzonnen en is deze niet verder uitgewerkt wordt, heb ik wel geleerd wat het nut kan zijn van een fysiek prototype. Het doel van dit fysieke prototype was om de gebruikersinteractie met het fysieke product te testen. Dit kan erg handig zijn als je een fysiek product maakt als eindproduct. Met dit type prototype kun je dan testen hoe de gebruiker het prototype gebruikt en of de gemaakte keuzes ook voor de gebruiker logisch zijn. Op basis van de resultaten hiervan kun je vervolgens aanpassingen doen of je keuzes motiveren. Mij lijkt het ook handig om een fysiek prototype te maken als je over de vormgeving van je fysieke product na wil denken. Met het maken van dit prototpe kun je testen of een gemaakt ontwerp op papier of digitaal ook werkt als het gerealiseerd is. Door het product daadwerkelijk te maken op een makkelijke manier kun je meteen zien of een design werkt of je design voorleggen aan gebruikers om een test te doen over het design. Op basis hiervan kun je dan weer aanpassingen doen of keuzes motiveren.<br><br> Ik denk dat ik door het onderzoek doen naar een fysiek prototype en het zelf maken ervan een beter beeld heb gekregen bij een fysiek prototype en in welke situatie en met welk doel ik deze kan gebruiken."
         },
         {
           "id": 7,
-          "image" : "images/technischprototype",
+          "image" : "images/arduino.png",
           "title": "Technisch Prototype",
           "subtitle" : "Prototyping",
           "description": "yeet"
