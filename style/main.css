@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Brush Script";
+  src: url("/fonts/BrushScriptStd.otf");
+}
+
+@font-face {
+  font-family: "APompadour";
+  src: url("/fonts/APompadourSample.otf");
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -44,7 +54,7 @@ h2 {
   padding: 0;
   margin: 0;
   float: left;
-  font-family: brush script std;
+  font-family: Brush Script;
   color: #E9AA15;
   font-size: 55px;
   flex-basis: 60%;
@@ -56,7 +66,7 @@ h2 {
   padding: 0;
   margin: 0;
   float: left;
-  font-family: A Pompadour Sample;
+  font-family: APompadour;
   font-weight: normal;
   font-size: 30px;
   color: rgba(255, 255, 255, 0.70);
@@ -73,7 +83,7 @@ h2 {
 .h1LandingContainer {
   padding: 0;
   margin: 0;
-  font-family: A Pompadour Sample;
+  font-family: APompadour;
   font-size: 110px;
   font-weight: bold;
   text-shadow: 2px 2px 2px black;
@@ -83,7 +93,7 @@ h2 {
 .h2LandingContaier {
   padding: 0;
   margin: 0;
-  font-family: A Pompadour Sample;
+  font-family: APompadour;
   font-size: 55px;
   font-weight: bold;
   text-shadow: 2px 2px 3px black;
@@ -109,7 +119,7 @@ h2 {
   border-radius: 20px;
   height: 60px;
   width: 270px;
-  font-family: A Pompadour Sample;
+  font-family: APompadour;
   font-size: 32px;
   color: white;
   margin-top: 100px;
@@ -141,7 +151,7 @@ h2 {
 }
 
 .welcomeContent h1 {
-  font-family: A Pompadour Sample, sans-serif;
+  font-family: APompadour, sans-serif;
   font-size: 120px;
   color: #D89F19;
   padding-top: 100px;
@@ -186,7 +196,7 @@ h2 {
 }
 
 .courses h1 {
-  font-family: A Pompadour Sample, sans-serif;
+  font-family: APompadour, sans-serif;
   font-size: 100px;
   color: white;
   padding-top: 100px;
@@ -212,7 +222,7 @@ h2 {
 }
 
 .courseName h1 {
-  font-family: A Pompadour Sample, sans-serif;
+  font-family: APompadour, sans-serif;
   font-size: 50px;
   font-weight: bold;
   color: white;
@@ -248,7 +258,7 @@ h2 {
   text-align: center;
   border: none;
   background-color: #D89F19;
-  font-family: A Pompadour Sample, sans-serif;
+  font-family: APompadour, sans-serif;
   font-size: 35px;
   font-weight: bold;
   color: white;

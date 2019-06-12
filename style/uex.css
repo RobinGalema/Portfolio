@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "Brush Script";
+  src: url("/fonts/BrushScriptStd.otf");
+}
+
+@font-face {
+  font-family: "APompadour";
+  src: url("/fonts/APompadourSample.otf");
+}
+
 body{
   margin: 0;
   padding: 0;
@@ -44,7 +54,7 @@ h2{
   padding: 0;
   margin: 0;
   float: left;
-  font-family: brush script std;
+  font-family: Brush Script;
   color: #E9AA15;
   font-size: 55px;
   flex-basis: 55%;
@@ -56,7 +66,7 @@ h2{
   padding: 0;
   margin: 0;
   float: left;
-  font-family: A Pompadour Sample;
+  font-family: APompadour;
   font-weight: normal;
   font-size: 30px;
   color: rgba(255, 255, 255, 0.70);
@@ -101,12 +111,12 @@ h2{
   width: 90%;
 }
 .pageContent h1{
-  font-family: A Pompadour Sample;
+  font-family: APompadour;
   font-size: 90px;
   color: #232323;
 }
 .pageContent h2{
-  font-family: A Pompadour Sample;
+  font-family: APompadour;
   font-size: 60px;
   color: #D89F19;
   padding-top: 10px;
@@ -160,7 +170,7 @@ h2{
 }
 
 .poccontainer h2{
-  font-family: A Pompadour Sample;
+  font-family: APompadour;
   font-size: 50px;
   color: rgba(255, 255, 255, 1);
   padding-top: 10%;
@@ -168,7 +178,7 @@ h2{
 }
 
 .pocContent p{
-  font-family: A Pompadour Sample;
+  font-family: APompadour;
   font-size: 25px;
   color: rgba(255, 255, 255, 1);
   text-align: center;
