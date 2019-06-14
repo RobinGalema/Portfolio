@@ -57,7 +57,7 @@ h2 {
   font-family: Brush Script;
   color: #E9AA15;
   font-size: 55px;
-  flex-basis: 60%;
+  flex-basis: 48%;
   transition-duration: 500ms;
   cursor: pointer;
 }
