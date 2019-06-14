@@ -106,3 +106,50 @@ body{
   height: 22em;
   width: auto;
 }
+
+.about{
+width: 50%;
+float: left;
+}
+
+.about h1{
+  font-family: Franklin Gothic;
+  font-weight: 900;
+  font-size: 80px;
+  color: white;
+  margin: 20px;
+  margin-top: 80px;
+}
+
+.about h2{
+  font-family: Franklin Gothic;
+  font-weight: 900;
+  color: white;
+  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.about p{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  margin: 20px;
+  margin-top: 5px;
+}
+
+.images{
+  text-align: center;
+  margin:auto;
+  width: 50%;
+}
+
+.editimg{
+  margin-top: 10em;
+  width: 55%;
+}
+
+.aftereffects{
+  width: 80%;
+  margin-top: 50px;
+}
